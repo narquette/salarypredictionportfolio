@@ -1,0 +1,3 @@
+2020-06-26 19:49:36,441 LGBoost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}
+2020-06-26 19:49:44,790 Score for LBboost ({'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}) is 0.7442933326806521
+2020-06-26 19:49:44,790 Run Time for LGboost ({'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}) is 0.0 minutes

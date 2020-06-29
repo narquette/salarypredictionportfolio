@@ -1,0 +1,146 @@
+INFO:root:Max features setting of auto is 0.7359388046395098
+INFO:root:Max features setting of None is 0.7359388046395098
+INFO:root:Max features setting of sqrt is 0.7342883744482229
+INFO:root:Max features setting of log2 is 0.7342883744482229
+INFO:root:Max features setting of 0.7 is 0.7358691374986808
+INFO:root:Max features setting of 0.2 is 0.7342883744482229
+INFO:root:N estimator setting of 1 is 0.5820137433943251
+INFO:root:N estimator setting of 2 is 0.6594842292107477
+INFO:root:N estimator setting of 3 is 0.6861179412366682
+INFO:root:N estimator setting of 4 is 0.6987996112591305
+INFO:root:N estimator setting of 5 is 0.7065703351839281
+INFO:root:N estimator setting of 15 is 0.7269417079994289
+INFO:root:N estimator setting of 20 is 0.7296581625268421
+INFO:root:N estimator setting of 25 is 0.7312506170544008
+INFO:root:N estimator setting of 40 is 0.7335733070877322
+INFO:root:N estimator setting of 50 is 0.73434077325225
+INFO:root:N estimator setting of 70 is 0.7352675992847915
+INFO:root:N estimator setting of 100 is 0.7359388046395098
+INFO:root:N estimator setting of 1 is 0.5820137433943251
+INFO:root:N estimator setting of 2 is 0.6594842292107477
+INFO:root:N estimator setting of 3 is 0.6861179412366682
+INFO:root:N estimator setting of 4 is 0.6987996112591305
+INFO:root:N estimator setting of 5 is 0.7065703351839281
+INFO:root:N estimator setting of 15 is 0.7269417079994289
+INFO:root:N estimator setting of 20 is 0.7296581625268421
+INFO:root:N estimator setting of 25 is 0.7312506170544008
+INFO:root:N estimator setting of 40 is 0.7335733070877322
+INFO:root:N estimator setting of 50 is 0.73434077325225
+INFO:root:N estimator setting of 70 is 0.7352675992847915
+INFO:root:N estimator setting of 100 is 0.7359388046395098
+INFO:root:Best Estimator setting is {max(n_estimator_dict, key=n_estimator_dict.get)}}
+INFO:root:Max features setting of auto is 0.7359388046395098
+INFO:root:Max features setting of None is 0.7359388046395098
+INFO:root:Max features setting of sqrt is 0.7342883744482229
+INFO:root:Max features setting of log2 is 0.7342883744482229
+INFO:root:Max features setting of 0.7 is 0.7358691374986808
+INFO:root:Max features setting of 0.2 is 0.7342883744482229
+INFO:root:Best Max features setting is {max(max_feature_dict, key=max_feature_dict.get)}
+INFO:root:N estimator setting of 1 is 0.5820137433943251
+INFO:root:N estimator setting of 2 is 0.6594842292107477
+INFO:root:N estimator setting of 3 is 0.6861179412366682
+INFO:root:N estimator setting of 4 is 0.6987996112591305
+INFO:root:N estimator setting of 5 is 0.7065703351839281
+INFO:root:N estimator setting of 15 is 0.7269417079994289
+INFO:root:N estimator setting of 20 is 0.7296581625268421
+INFO:root:N estimator setting of 25 is 0.7312506170544008
+INFO:root:N estimator setting of 40 is 0.7335733070877322
+INFO:root:N estimator setting of 50 is 0.73434077325225
+INFO:root:N estimator setting of 70 is 0.7352675992847915
+INFO:root:N estimator setting of 100 is 0.7359388046395098
+INFO:root:Best Estimator setting is 100
+INFO:root:Max features setting of auto is 0.7359388046395098
+INFO:root:Max features setting of None is 0.7359388046395098
+INFO:root:Max features setting of sqrt is 0.7342883744482229
+INFO:root:Max features setting of log2 is 0.7342883744482229
+INFO:root:Max features setting of 0.7 is 0.7358691374986808
+INFO:root:Max features setting of 0.2 is 0.7342883744482229
+INFO:root:Best Max features setting is auto
+INFO:root:Start time for min sample leaf is 1593099747.9628553
+INFO:root:Run time for sample leaf 1 is 26.0 minutes
+INFO:root:Min Sample Leaf of 1 is 0.7359388046395098
+INFO:root:Start time for min sample leaf is 1593101320.6907175
+INFO:root:Run time for sample leaf 2 is 10.0 minutes
+INFO:root:Min Sample Leaf of 2 is 0.7377969757628688
+INFO:root:Start time for min sample leaf is 1593101960.5858498
+INFO:root:Run time for sample leaf 3 is 6.0 minutes
+INFO:root:Min Sample Leaf of 3 is 0.7391246303645138
+INFO:root:Start time for min sample leaf is 1593102376.4309187
+INFO:root:Run time for sample leaf 4 is 5.0 minutes
+INFO:root:Min Sample Leaf of 4 is 0.740039210483436
+INFO:root:Start time for min sample leaf is 1593102707.5968564
+INFO:root:Run time for sample leaf 5 is 5.0 minutes
+INFO:root:Min Sample Leaf of 5 is 0.7407115036318801
+INFO:root:Start time for min sample leaf is 1593103013.2173352
+INFO:root:Run time for sample leaf 6 is 4.0 minutes
+INFO:root:Min Sample Leaf of 6 is 0.7412030355598846
+INFO:root:Start time for min sample leaf is 1593103294.4780357
+INFO:root:Run time for sample leaf 7 is 4.0 minutes
+INFO:root:Min Sample Leaf of 7 is 0.741644017276959
+INFO:root:Start time for min sample leaf is 1593103551.3919365
+INFO:root:Run time for sample leaf 8 is 4.0 minutes
+INFO:root:Min Sample Leaf of 8 is 0.7419137824228437
+INFO:root:Start time for min sample leaf is 1593103798.192078
+INFO:root:Run time for sample leaf 9 is 4.0 minutes
+INFO:root:Min Sample Leaf of 9 is 0.7421202940991232
+INFO:root:Start time for min sample leaf is 1593104039.487233
+INFO:root:Run time for sample leaf 10 is 3.0 minutes
+INFO:root:Min Sample Leaf of 10 is 0.742318646718331
+INFO:root:Start time for min sample leaf is 1593104272.7737541
+INFO:root:Run time for sample leaf 20 is 3.0 minutes
+INFO:root:Min Sample Leaf of 20 is 0.7425558185104432
+INFO:root:Best Min Sample Leaf is 20
+DEBUG:matplotlib.pyplot:Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+DEBUG:matplotlib.pyplot:Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+DEBUG:matplotlib.font_manager:findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+INFO:root:Start time final model is 2020-06-25 12:21:08.727330
+INFO:root:Start time final model is 2020-06-25 12:21:44.876270
+INFO:root:Start time final model is 2020-06-25 12:21:54.588142
+INFO:root:End time final model is 2020-06-25 12:25:20.373839
+INFO:root:Best score for final model is 0.7425558185104432
+INFO:root:Run for final model is -21.0 minutes
+INFO:root:Best score for final model is 0.7425558185104432
+INFO:root:Best score for final model is 0.7425558185104432
+INFO:root:Run for final model is 5.0 minutes
+INFO:root:Start time final model is 2020-06-25 12:37:10.313187
+INFO:root:End time final model is 2020-06-25 12:40:42.200374
+INFO:root:Best score for final model is 0.7425558185104432

@@ -1,0 +1,19 @@
+2020-06-28 21:41:00,171 Linear Regression Start
+2020-06-28 21:42:21,025 Linear Regression Start
+2020-06-28 21:42:29,408 Score for Linear Regression is [-0.03065396 -0.0304949  -0.03060893 -0.03043723 -0.03031866]
+2020-06-28 21:42:29,409 Run Time for Linear Regression is 0.0 minutes
+2020-06-28 21:43:08,319 Linear Regression Start
+2020-06-28 21:43:16,805 Score for Linear Regression is [-0.03065396 -0.0304949  -0.03060893 -0.03043723 -0.03031866]
+2020-06-28 21:43:16,814 Run Time for Linear Regression is 0.0 minutes
+2020-06-28 21:45:20,724 Linear Regression Start
+2020-06-28 21:45:28,929 Score for Linear Regression is [-0.03065396 -0.0304949  -0.03060893 -0.03043723 -0.03031866]
+2020-06-28 21:45:28,930 Run Time for Linear Regression is 0.0 minutes
+2020-06-28 21:48:03,258 Linear Regression Start
+2020-06-28 21:48:11,408 Score for Linear Regression is [-0.03065396 -0.0304949  -0.03060893 -0.03043723 -0.03031866]
+2020-06-28 21:48:11,408 Run Time for Linear Regression is 0.0 minutes
+2020-06-28 21:48:48,505 LGBoost Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-28 21:49:23,008 Score for LBboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is [0.79905453 0.79819467 0.797132   0.79782803 0.79718321]
+2020-06-28 21:49:23,008 Run Time for LGboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 0.0 minutes
+2020-06-28 21:49:37,839 LGBoost Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-28 21:50:11,355 Score for LBboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is [0.79905453 0.79819467 0.797132   0.79782803 0.79718321]
+2020-06-28 21:50:11,355 Run Time for LGboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 0.0 minutes

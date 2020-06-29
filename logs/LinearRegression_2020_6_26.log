@@ -1,0 +1,9 @@
+2020-06-26 11:44:02,357 Linear Regression Start
+2020-06-26 11:44:04,521 Score for Linear Regression is 0.7337396178605675
+2020-06-26 11:44:04,521 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 11:49:18,720 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 11:52:37,117 Score for Random Forest ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 0.7425558185104432
+2020-06-26 11:52:37,118 Run Time for Random Forest ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 3.0 minutes
+2020-06-26 13:53:11,731 Linear Regression Start
+2020-06-26 13:53:14,070 Score for Linear Regression is 0.7337396178605675
+2020-06-26 13:53:14,070 Run Time for Linear Regression is 0.0 minutes

@@ -1,0 +1,46 @@
+2020-06-26 20:18:00,402 Linear Regression Start
+2020-06-26 20:19:03,076 Linear Regression Start
+2020-06-26 20:19:30,865 Linear Regression Start
+2020-06-26 20:19:42,116 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:19:42,116 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:20:27,812 Linear Regression Start
+2020-06-26 20:20:38,434 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:20:38,443 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:21:00,790 Linear Regression Start
+2020-06-26 20:21:11,066 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:21:11,066 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:23:38,078 Linear Regression Start
+2020-06-26 20:23:48,244 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:23:48,245 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:33:33,427 Linear Regression Start
+2020-06-26 20:33:44,717 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:33:44,717 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:33:51,908 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 20:56:40,760 Linear Regression Start
+2020-06-26 20:56:49,982 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:56:49,983 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:58:22,555 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 21:20:26,986 Linear Regression Start
+2020-06-26 21:20:38,219 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 21:20:38,219 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 21:20:55,414 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 21:48:08,846 Score for RandomForest CV is [0.74437715 0.74401186 0.74324628 0.74373384 0.74322917]
+2020-06-26 21:48:08,846 Run Time for RandomForest is 27.0 minutes
+2020-06-26 21:48:10,783 XGboost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}
+2020-06-26 21:53:48,268 Score for XGboost ({'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}) is [0.74495173 0.74495381 0.74360083 0.74445532 0.74370896]
+2020-06-26 21:53:48,269 Run Time for XGboost ({'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}) is 5.0 minutes
+2020-06-26 21:53:50,419 LGBoost Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 21:55:03,269 Score for LBboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is [0.74577761 0.74558029 0.74448139 0.74469801 0.7443397 ]
+2020-06-26 21:55:03,269 Run Time for LGboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 1.0 minutes
+2020-06-26 21:58:20,253 Linear Regression Start
+2020-06-26 21:58:29,377 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 21:58:29,377 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 21:58:31,292 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 22:25:49,644 Score for RandomForest CV is [0.74437715 0.74401186 0.74324628 0.74373384 0.74322917]
+2020-06-26 22:25:49,644 Run Time for RandomForest is 27.0 minutes
+2020-06-26 22:25:51,630 XGboost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}
+2020-06-26 22:30:42,152 Score for XGboost ({'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}) is [0.74495173 0.74495381 0.74360083 0.74445532 0.74370896]
+2020-06-26 22:30:42,153 Run Time for XGboost ({'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}) is 4.0 minutes
+2020-06-26 22:30:44,016 LGBoost Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 22:31:44,373 Score for LBboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is [0.74577761 0.74558029 0.74448139 0.74469801 0.7443397 ]
+2020-06-26 22:31:44,373 Run Time for LGboost ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 1.0 minutes

@@ -1,0 +1,85 @@
+
+2020-06-26 14:32:23,038 XGboost Run Start for paramter {'learning_rate': 0.05}
+2020-06-26 14:33:27,777 Score for XGboost ({'learning_rate': 0.05}) is 0.7399454891421442
+2020-06-26 14:33:27,777 Run Time for XGboost ({'learning_rate': 0.05}) is 1.0 minutes
+2020-06-26 14:33:27,777 XGboost Run Start for paramter {'learning_rate': 0.1}
+2020-06-26 14:34:29,318 Score for XGboost ({'learning_rate': 0.1}) is 0.7443547233390124
+2020-06-26 14:34:29,318 Run Time for XGboost ({'learning_rate': 0.1}) is 1.0 minutes
+2020-06-26 14:34:29,319 XGboost Run Start for paramter {'learning_rate': 0.2}
+2020-06-26 14:35:34,817 Score for XGboost ({'learning_rate': 0.2}) is 0.7437268645632684
+2020-06-26 14:35:34,818 Run Time for XGboost ({'learning_rate': 0.2}) is 1.0 minutes
+2020-06-26 14:35:34,818 XGboost Run Start for paramter {'learning_rate': 0.4}
+2020-06-26 14:36:38,471 Score for XGboost ({'learning_rate': 0.4}) is 0.7429743100124658
+2020-06-26 14:36:38,471 Run Time for XGboost ({'learning_rate': 0.4}) is 1.0 minutes
+2020-06-26 14:36:38,472 XGboost Run Start for paramter {'learning_rate': 0.6}
+2020-06-26 14:37:41,618 Score for XGboost ({'learning_rate': 0.6}) is 0.7418690618041995
+2020-06-26 14:37:41,618 Run Time for XGboost ({'learning_rate': 0.6}) is 1.0 minutes
+2020-06-26 14:37:41,618 XGboost Run Start for paramter {'learning_rate': 0.8}
+2020-06-26 14:38:44,212 Score for XGboost ({'learning_rate': 0.8}) is 0.7404045564153675
+2020-06-26 14:38:44,212 Run Time for XGboost ({'learning_rate': 0.8}) is 1.0 minutes
+2020-06-26 14:38:44,212 XGboost Run Start for paramter {'learning_rate': 1}
+2020-06-26 14:39:47,560 Score for XGboost ({'learning_rate': 1}) is 0.7382110135538756
+2020-06-26 14:39:47,561 Run Time for XGboost ({'learning_rate': 1}) is 1.0 minutes
+2020-06-26 14:39:47,561 XGboost Run Start for paramter {'max_depth': 1}
+2020-06-26 14:40:09,962 Score for XGboost ({'max_depth': 1}) is 0.7231505181025579
+2020-06-26 14:40:09,962 Run Time for XGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-26 14:40:09,963 XGboost Run Start for paramter {'max_depth': 2}
+2020-06-26 14:40:37,782 Score for XGboost ({'max_depth': 2}) is 0.7424742481402721
+2020-06-26 14:40:37,782 Run Time for XGboost ({'max_depth': 2}) is 0.0 minutes
+2020-06-26 14:40:37,782 XGboost Run Start for paramter {'max_depth': 3}
+2020-06-26 14:41:12,767 Score for XGboost ({'max_depth': 3}) is 0.7430338225284163
+2020-06-26 14:41:12,767 Run Time for XGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-26 14:41:12,768 XGboost Run Start for paramter {'max_depth': 4}
+2020-06-26 14:41:56,510 Score for XGboost ({'max_depth': 4}) is 0.7436118869127173
+2020-06-26 14:41:56,511 Run Time for XGboost ({'max_depth': 4}) is 0.0 minutes
+2020-06-26 14:41:56,511 XGboost Run Start for paramter {'max_depth': 5}
+2020-06-26 14:42:47,883 Score for XGboost ({'max_depth': 5}) is 0.7435641432377356
+2020-06-26 14:42:47,883 Run Time for XGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-26 14:42:47,884 XGboost Run Start for paramter {'max_depth': 10}
+2020-06-26 14:44:30,369 Score for XGboost ({'max_depth': 10}) is 0.7341922748100576
+2020-06-26 14:44:30,370 Run Time for XGboost ({'max_depth': 10}) is 1.0 minutes
+2020-06-26 14:44:30,370 XGboost Run Start for paramter {'max_depth': 20}
+2020-06-26 14:49:30,719 Score for XGboost ({'max_depth': 20}) is 0.5971067174747677
+2020-06-26 14:49:30,719 Run Time for XGboost ({'max_depth': 20}) is 5.0 minutes
+2020-06-26 14:49:30,720 XGboost Run Start for paramter {'max_depth': 50}
+2020-06-26 14:59:17,067 Score for XGboost ({'max_depth': 50}) is 0.592480543574142
+2020-06-26 14:59:17,067 Run Time for XGboost ({'max_depth': 50}) is 9.0 minutes
+2020-06-26 14:59:17,067 XGboost Run Start for paramter {'n_estimators': 1}
+2020-06-26 14:59:22,060 Score for XGboost ({'n_estimators': 1}) is -4.120418073172209
+2020-06-26 14:59:22,060 Run Time for XGboost ({'n_estimators': 1}) is 0.0 minutes
+2020-06-26 14:59:22,060 XGboost Run Start for paramter {'n_estimators': 2}
+2020-06-26 14:59:27,403 Score for XGboost ({'n_estimators': 2}) is -1.7278382424997822
+2020-06-26 14:59:27,404 Run Time for XGboost ({'n_estimators': 2}) is 0.0 minutes
+2020-06-26 14:59:27,404 XGboost Run Start for paramter {'n_estimators': 3}
+2020-06-26 14:59:33,476 Score for XGboost ({'n_estimators': 3}) is -0.5387631684308909
+2020-06-26 14:59:33,476 Run Time for XGboost ({'n_estimators': 3}) is 0.0 minutes
+2020-06-26 14:59:33,476 XGboost Run Start for paramter {'n_estimators': 4}
+2020-06-26 14:59:39,915 Score for XGboost ({'n_estimators': 4}) is 0.06245868942089039
+2020-06-26 14:59:39,915 Run Time for XGboost ({'n_estimators': 4}) is 0.0 minutes
+2020-06-26 14:59:39,915 XGboost Run Start for paramter {'n_estimators': 5}
+2020-06-26 14:59:46,970 Score for XGboost ({'n_estimators': 5}) is 0.37175362828441305
+2020-06-26 14:59:46,970 Run Time for XGboost ({'n_estimators': 5}) is 0.0 minutes
+2020-06-26 14:59:46,970 XGboost Run Start for paramter {'n_estimators': 15}
+2020-06-26 14:59:59,470 Score for XGboost ({'n_estimators': 15}) is 0.7356169668182106
+2020-06-26 14:59:59,470 Run Time for XGboost ({'n_estimators': 15}) is 0.0 minutes
+2020-06-26 14:59:59,470 XGboost Run Start for paramter {'n_estimators': 20}
+2020-06-26 15:00:15,791 Score for XGboost ({'n_estimators': 20}) is 0.73964867311563
+2020-06-26 15:00:15,791 Run Time for XGboost ({'n_estimators': 20}) is 0.0 minutes
+2020-06-26 15:00:15,792 XGboost Run Start for paramter {'n_estimators': 25}
+2020-06-26 15:00:35,954 Score for XGboost ({'n_estimators': 25}) is 0.7409902537081571
+2020-06-26 15:00:35,954 Run Time for XGboost ({'n_estimators': 25}) is 0.0 minutes
+2020-06-26 15:00:35,955 XGboost Run Start for paramter {'n_estimators': 40}
+2020-06-26 15:01:08,286 Score for XGboost ({'n_estimators': 40}) is 0.7425817443647307
+2020-06-26 15:01:08,287 Run Time for XGboost ({'n_estimators': 40}) is 0.0 minutes
+2020-06-26 15:01:08,287 XGboost Run Start for paramter {'n_estimators': 50}
+2020-06-26 15:01:41,914 Score for XGboost ({'n_estimators': 50}) is 0.7431414942446293
+2020-06-26 15:01:41,914 Run Time for XGboost ({'n_estimators': 50}) is 0.0 minutes
+2020-06-26 15:01:41,915 XGboost Run Start for paramter {'n_estimators': 70}
+2020-06-26 15:02:28,831 Score for XGboost ({'n_estimators': 70}) is 0.7434733575213213
+2020-06-26 15:02:28,832 Run Time for XGboost ({'n_estimators': 70}) is 0.0 minutes
+2020-06-26 15:02:28,832 XGboost Run Start for paramter {'n_estimators': 100}
+2020-06-26 15:03:31,806 Score for XGboost ({'n_estimators': 100}) is 0.7435007721859073
+2020-06-26 15:03:31,806 Run Time for XGboost ({'n_estimators': 100}) is 1.0 minutes
+2020-06-26 15:11:37,888 XGboost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}
+2020-06-26 15:12:21,676 Score for XGboost ({'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}) is 0.7435033464654844
+2020-06-26 15:12:21,677 Run Time for XGboost ({'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}) is 0.0 minutes

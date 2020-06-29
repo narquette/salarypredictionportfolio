@@ -1,0 +1,24 @@
+2020-06-26 20:31:20,662 pickle loaded: /home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+2020-06-26 20:31:21,196 pickle loaded: /home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/sys.pyi
+2020-06-26 20:31:21,229 pickle loaded: /home/narquette/anaconda/envs/capstone/lib/python3.7/typing.py
+2020-06-26 20:31:21,241 pickle loaded: /home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/3/typing.pyi
+2020-06-26 20:31:22,159 diff parser start
+2020-06-26 20:31:22,159 line_lengths old: 26; new: 26
+2020-06-26 20:31:22,160 -> code[equal] old[1:25] new[1:25]
+2020-06-26 20:31:22,160 copy old[1:23] new[1:23]
+2020-06-26 20:31:22,161 parse_part from 24 to 26 (to 25 in part parser)
+2020-06-26 20:31:22,161 -> code[replace] old[26:26] new[26:26]
+2020-06-26 20:31:22,162 diff parser end
+2020-06-26 20:31:23,536 diff parser start
+2020-06-26 20:31:23,536 line_lengths old: 26; new: 26
+2020-06-26 20:31:23,536 -> code[equal] old[1:25] new[1:25]
+2020-06-26 20:31:23,536 copy old[1:23] new[1:23]
+2020-06-26 20:31:23,537 parse_part from 24 to 26 (to 25 in part parser)
+2020-06-26 20:31:23,537 -> code[replace] old[26:26] new[26:26]
+2020-06-26 20:31:23,537 diff parser end
+2020-06-26 20:34:53,968 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 20:39:42,186 Linear Regression Start
+2020-06-26 20:39:54,648 Score for Linear Regression is [0.73508019 0.73511336 0.7337331  0.73452219 0.73405008]
+2020-06-26 20:39:54,649 Run Time for Linear Regression is 0.0 minutes
+2020-06-26 20:39:56,722 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 20:40:23,108 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}

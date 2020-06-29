@@ -1,0 +1,116 @@
+INFO:root:Random Forest Run Start is 2020-06-26 00:30:36.672607 for paramter {'max_depth': 1}
+INFO:root:Score for Random Forest ({'max_depth': 1}) is 0.19173585136195714
+INFO:root:Random Forest Run Start is 2020-06-26 00:32:05.724878 for paramter {'max_depth': 1}
+INFO:root:Score for Random Forest ({'max_depth': 1}) is 0.19173585136195714
+INFO:root:Run Time for Random Forest ({'max_depth': 1}) is 0.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:32:15.580015 for paramter {'max_depth': 2}
+INFO:root:Score for Random Forest ({'max_depth': 2}) is 0.2995561784788713
+INFO:root:Run Time for Random Forest ({'max_depth': 2}) is 0.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:32:28.196641 for paramter {'max_depth': 3}
+INFO:root:Score for Random Forest ({'max_depth': 3}) is 0.3983914915037654
+INFO:root:Run Time for Random Forest ({'max_depth': 3}) is 0.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:32:44.420610 for paramter {'max_depth': 4}
+INFO:root:Score for Random Forest ({'max_depth': 4}) is 0.4656011496876111
+INFO:root:Run Time for Random Forest ({'max_depth': 4}) is 0.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:33:06.233302 for paramter {'max_depth': 5}
+INFO:root:Score for Random Forest ({'max_depth': 5}) is 0.5147645105049029
+INFO:root:Run Time for Random Forest ({'max_depth': 5}) is 0.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:33:36.565088 for paramter {'max_depth': 10}
+INFO:root:Score for Random Forest ({'max_depth': 10}) is 0.6844004633764513
+INFO:root:Run Time for Random Forest ({'max_depth': 10}) is 1.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:35:20.685246 for paramter {'max_depth': 20}
+INFO:root:Score for Random Forest ({'max_depth': 20}) is 0.7359388046395098
+INFO:root:Run Time for Random Forest ({'max_depth': 20}) is 22.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 00:57:29.268844 for paramter {'max_depth': 50}
+INFO:root:Score for Random Forest ({'max_depth': 50}) is 0.7276693127067347
+INFO:root:Run Time for Random Forest ({'max_depth': 50}) is 44.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:42:03.379480 for paramter {'n_estimators': 1}
+INFO:root:Score for Random Forest ({'n_estimators': 1}) is 0.47668715919900795
+INFO:root:Run Time for Random Forest ({'n_estimators': 1}) is 1.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:43:21.717910 for paramter {'n_estimators': 2}
+INFO:root:Score for Random Forest ({'n_estimators': 2}) is 0.602268592224023
+INFO:root:Run Time for Random Forest ({'n_estimators': 2}) is 1.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:44:53.901376 for paramter {'n_estimators': 3}
+INFO:root:Score for Random Forest ({'n_estimators': 3}) is 0.6448196518783657
+INFO:root:Run Time for Random Forest ({'n_estimators': 3}) is 1.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:46:53.051181 for paramter {'n_estimators': 4}
+INFO:root:Score for Random Forest ({'n_estimators': 4}) is 0.6662686407895044
+INFO:root:Run Time for Random Forest ({'n_estimators': 4}) is 2.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:49:26.175205 for paramter {'n_estimators': 5}
+INFO:root:Score for Random Forest ({'n_estimators': 5}) is 0.6792870837940175
+INFO:root:Run Time for Random Forest ({'n_estimators': 5}) is 2.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:52:00.399849 for paramter {'n_estimators': 15}
+INFO:root:Score for Random Forest ({'n_estimators': 15}) is 0.7130059622301845
+INFO:root:Run Time for Random Forest ({'n_estimators': 15}) is 6.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 01:58:56.747048 for paramter {'n_estimators': 20}
+INFO:root:Score for Random Forest ({'n_estimators': 20}) is 0.7174931615948253
+INFO:root:Run Time for Random Forest ({'n_estimators': 20}) is 9.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 02:08:13.499575 for paramter {'n_estimators': 25}
+INFO:root:Score for Random Forest ({'n_estimators': 25}) is 0.7201587188284232
+INFO:root:Run Time for Random Forest ({'n_estimators': 25}) is 11.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 02:19:50.337290 for paramter {'n_estimators': 40}
+INFO:root:Score for Random Forest ({'n_estimators': 40}) is 0.7239532742445053
+INFO:root:Run Time for Random Forest ({'n_estimators': 40}) is 18.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 02:38:06.008015 for paramter {'n_estimators': 50}
+INFO:root:Score for Random Forest ({'n_estimators': 50}) is 0.7251970218311437
+INFO:root:Run Time for Random Forest ({'n_estimators': 50}) is 23.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 03:01:11.891589 for paramter {'n_estimators': 70}
+INFO:root:Score for Random Forest ({'n_estimators': 70}) is 0.7266236536381291
+INFO:root:Run Time for Random Forest ({'n_estimators': 70}) is 31.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 03:32:57.676455 for paramter {'n_estimators': 100}
+INFO:root:Score for Random Forest ({'n_estimators': 100}) is 0.7276693127067347
+INFO:root:Run Time for Random Forest ({'n_estimators': 100}) is 44.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 04:17:49.019439 for paramter {'max_features': 'auto'}
+INFO:root:Score for Random Forest ({'max_features': 'auto'}) is 0.7276693127067347
+INFO:root:Run Time for Random Forest ({'max_features': 'auto'}) is 45.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 05:03:11.511717 for paramter {'max_features': None}
+INFO:root:Score for Random Forest ({'max_features': None}) is 0.7276693127067347
+INFO:root:Run Time for Random Forest ({'max_features': None}) is 45.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 05:48:48.934951 for paramter {'max_features': 'sqrt'}
+INFO:root:Score for Random Forest ({'max_features': 'sqrt'}) is 0.7258868156899263
+INFO:root:Run Time for Random Forest ({'max_features': 'sqrt'}) is 34.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 06:22:49.798342 for paramter {'max_features': 'log2'}
+INFO:root:Score for Random Forest ({'max_features': 'log2'}) is 0.7258868156899263
+INFO:root:Run Time for Random Forest ({'max_features': 'log2'}) is 34.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 06:57:07.626730 for paramter {'max_features': 0.7}
+INFO:root:Score for Random Forest ({'max_features': 0.7}) is 0.7273356678919815
+INFO:root:Run Time for Random Forest ({'max_features': 0.7}) is 38.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 07:35:44.728953 for paramter {'max_features': 0.2}
+INFO:root:Score for Random Forest ({'max_features': 0.2}) is 0.7258868156899263
+INFO:root:Run Time for Random Forest ({'max_features': 0.2}) is 42.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 08:18:13.620884 for paramter {'min_samples_leaf': 1}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 1}) is 0.7276693127067347
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 1}) is 54.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:13:03.087105 for paramter {'min_samples_leaf': 2}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 2}) is 0.7335028864737433
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 2}) is 16.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:29:37.585821 for paramter {'min_samples_leaf': 3}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 3}) is 0.7365595879379347
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 3}) is 9.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:38:55.835855 for paramter {'min_samples_leaf': 4}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 4}) is 0.7384124039218418
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 4}) is 6.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:45:49.659949 for paramter {'min_samples_leaf': 5}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 5}) is 0.7396039686570057
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 5}) is 5.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:51:03.285321 for paramter {'min_samples_leaf': 6}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 6}) is 0.740406805590198
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 6}) is 4.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:55:24.028418 for paramter {'min_samples_leaf': 7}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 7}) is 0.7410494486994577
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 7}) is 4.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 09:59:37.912653 for paramter {'min_samples_leaf': 8}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 8}) is 0.7414606865498307
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 8}) is 4.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 10:03:43.889956 for paramter {'min_samples_leaf': 9}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 9}) is 0.7417586257514327
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 9}) is 3.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 10:07:40.469206 for paramter {'min_samples_leaf': 10}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 10}) is 0.742027590584796
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 10}) is 3.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 10:11:19.917879 for paramter {'min_samples_leaf': 20}
+INFO:root:Score for Random Forest ({'min_samples_leaf': 20}) is 0.7425130681509158
+INFO:root:Run Time for Random Forest ({'min_samples_leaf': 20}) is 3.0 minutes
+INFO:root:Random Forest Run Start is 2020-06-26 10:37:47.322618 for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+INFO:root:Score for Random Forest ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 0.7425558185104432
+INFO:root:Run Time for Random Forest ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 3.0 minutes

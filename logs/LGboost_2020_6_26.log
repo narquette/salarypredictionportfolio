@@ -1,0 +1,165 @@
+2020-06-26 19:43:15,279 LGBoost Run Start for paramter {'learning_rate': 0.05}
+2020-06-26 19:43:23,494 Score for LBboost ({'learning_rate': 0.05}) is 0.7418113269923883
+2020-06-26 19:43:23,494 Run Time for LGboost ({'learning_rate': 0.05}) is 0.0 minutes
+2020-06-26 19:43:23,495 LGBoost Run Start for paramter {'learning_rate': 0.1}
+2020-06-26 19:43:30,435 Score for LBboost ({'learning_rate': 0.1}) is 0.7442933326806521
+2020-06-26 19:43:30,436 Run Time for LGboost ({'learning_rate': 0.1}) is 0.0 minutes
+2020-06-26 19:43:30,439 LGBoost Run Start for paramter {'learning_rate': 0.2}
+2020-06-26 19:43:37,885 Score for LBboost ({'learning_rate': 0.2}) is 0.7432170807793788
+2020-06-26 19:43:37,885 Run Time for LGboost ({'learning_rate': 0.2}) is 0.0 minutes
+2020-06-26 19:43:37,885 LGBoost Run Start for paramter {'learning_rate': 0.4}
+2020-06-26 19:43:43,705 Score for LBboost ({'learning_rate': 0.4}) is 0.7416048137296777
+2020-06-26 19:43:43,705 Run Time for LGboost ({'learning_rate': 0.4}) is 0.0 minutes
+2020-06-26 19:43:43,705 LGBoost Run Start for paramter {'learning_rate': 0.6}
+2020-06-26 19:43:49,504 Score for LBboost ({'learning_rate': 0.6}) is 0.7412275641211635
+2020-06-26 19:43:49,505 Run Time for LGboost ({'learning_rate': 0.6}) is 0.0 minutes
+2020-06-26 19:43:49,506 LGBoost Run Start for paramter {'learning_rate': 0.8}
+2020-06-26 19:43:55,288 Score for LBboost ({'learning_rate': 0.8}) is 0.7402316552193666
+2020-06-26 19:43:55,288 Run Time for LGboost ({'learning_rate': 0.8}) is 0.0 minutes
+2020-06-26 19:43:55,289 LGBoost Run Start for paramter {'learning_rate': 1}
+2020-06-26 19:44:00,781 Score for LBboost ({'learning_rate': 1}) is 0.7384901890543323
+2020-06-26 19:44:00,782 Run Time for LGboost ({'learning_rate': 1}) is 0.0 minutes
+2020-06-26 19:44:00,782 LGBoost Run Start for paramter {'max_depth': 1}
+2020-06-26 19:44:04,091 Score for LBboost ({'max_depth': 1}) is 0.5968634113680208
+2020-06-26 19:44:04,091 Run Time for LGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-26 19:44:04,091 LGBoost Run Start for paramter {'max_depth': 2}
+2020-06-26 19:44:07,817 Score for LBboost ({'max_depth': 2}) is 0.7162812642009633
+2020-06-26 19:44:07,817 Run Time for LGboost ({'max_depth': 2}) is 0.0 minutes
+2020-06-26 19:44:07,818 LGBoost Run Start for paramter {'max_depth': 3}
+2020-06-26 19:44:12,081 Score for LBboost ({'max_depth': 3}) is 0.7390297547434125
+2020-06-26 19:44:12,081 Run Time for LGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-26 19:44:12,081 LGBoost Run Start for paramter {'max_depth': 4}
+2020-06-26 19:44:17,261 Score for LBboost ({'max_depth': 4}) is 0.7435092139283757
+2020-06-26 19:44:17,261 Run Time for LGboost ({'max_depth': 4}) is 0.0 minutes
+2020-06-26 19:44:17,262 LGBoost Run Start for paramter {'max_depth': 5}
+2020-06-26 19:44:22,813 Score for LBboost ({'max_depth': 5}) is 0.7442538565894413
+2020-06-26 19:44:22,814 Run Time for LGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-26 19:44:22,814 LGBoost Run Start for paramter {'max_depth': 10}
+2020-06-26 19:44:30,319 Score for LBboost ({'max_depth': 10}) is 0.7442549354199295
+2020-06-26 19:44:30,320 Run Time for LGboost ({'max_depth': 10}) is 0.0 minutes
+2020-06-26 19:44:30,320 LGBoost Run Start for paramter {'max_depth': 20}
+2020-06-26 19:44:38,098 Score for LBboost ({'max_depth': 20}) is 0.7442933326806521
+2020-06-26 19:44:38,098 Run Time for LGboost ({'max_depth': 20}) is 0.0 minutes
+2020-06-26 19:44:38,098 LGBoost Run Start for paramter {'max_depth': 50}
+2020-06-26 19:44:45,317 Score for LBboost ({'max_depth': 50}) is 0.7442933326806521
+2020-06-26 19:44:45,317 Run Time for LGboost ({'max_depth': 50}) is 0.0 minutes
+2020-06-26 19:44:45,318 LGBoost Run Start for paramter {'n_estimators': 1}
+2020-06-26 19:44:46,993 Score for LBboost ({'n_estimators': 1}) is 0.10629644321831422
+2020-06-26 19:44:46,994 Run Time for LGboost ({'n_estimators': 1}) is 0.0 minutes
+2020-06-26 19:44:46,994 LGBoost Run Start for paramter {'n_estimators': 2}
+2020-06-26 19:44:48,758 Score for LBboost ({'n_estimators': 2}) is 0.1923602625170534
+2020-06-26 19:44:48,758 Run Time for LGboost ({'n_estimators': 2}) is 0.0 minutes
+2020-06-26 19:44:48,759 LGBoost Run Start for paramter {'n_estimators': 3}
+2020-06-26 19:44:50,657 Score for LBboost ({'n_estimators': 3}) is 0.26505571193746724
+2020-06-26 19:44:50,657 Run Time for LGboost ({'n_estimators': 3}) is 0.0 minutes
+2020-06-26 19:44:50,657 LGBoost Run Start for paramter {'n_estimators': 4}
+2020-06-26 19:44:52,612 Score for LBboost ({'n_estimators': 4}) is 0.32527909652819187
+2020-06-26 19:44:52,613 Run Time for LGboost ({'n_estimators': 4}) is 0.0 minutes
+2020-06-26 19:44:52,613 LGBoost Run Start for paramter {'n_estimators': 5}
+2020-06-26 19:44:54,686 Score for LBboost ({'n_estimators': 5}) is 0.3772428368133379
+2020-06-26 19:44:54,686 Run Time for LGboost ({'n_estimators': 5}) is 0.0 minutes
+2020-06-26 19:44:54,686 LGBoost Run Start for paramter {'n_estimators': 15}
+2020-06-26 19:44:57,385 Score for LBboost ({'n_estimators': 15}) is 0.6302705768185906
+2020-06-26 19:44:57,386 Run Time for LGboost ({'n_estimators': 15}) is 0.0 minutes
+2020-06-26 19:44:57,386 LGBoost Run Start for paramter {'n_estimators': 20}
+2020-06-26 19:45:00,420 Score for LBboost ({'n_estimators': 20}) is 0.6801151817915136
+2020-06-26 19:45:00,421 Run Time for LGboost ({'n_estimators': 20}) is 0.0 minutes
+2020-06-26 19:45:00,421 LGBoost Run Start for paramter {'n_estimators': 25}
+2020-06-26 19:45:03,751 Score for LBboost ({'n_estimators': 25}) is 0.7077440777115607
+2020-06-26 19:45:03,751 Run Time for LGboost ({'n_estimators': 25}) is 0.0 minutes
+2020-06-26 19:45:03,751 LGBoost Run Start for paramter {'n_estimators': 40}
+2020-06-26 19:45:07,600 Score for LBboost ({'n_estimators': 40}) is 0.7370297350974371
+2020-06-26 19:45:07,601 Run Time for LGboost ({'n_estimators': 40}) is 0.0 minutes
+2020-06-26 19:45:07,601 LGBoost Run Start for paramter {'n_estimators': 50}
+2020-06-26 19:45:12,349 Score for LBboost ({'n_estimators': 50}) is 0.7415857952896163
+2020-06-26 19:45:12,349 Run Time for LGboost ({'n_estimators': 50}) is 0.0 minutes
+2020-06-26 19:45:12,350 LGBoost Run Start for paramter {'n_estimators': 70}
+2020-06-26 19:45:18,215 Score for LBboost ({'n_estimators': 70}) is 0.7438406645316276
+2020-06-26 19:45:18,215 Run Time for LGboost ({'n_estimators': 70}) is 0.0 minutes
+2020-06-26 19:45:18,216 LGBoost Run Start for paramter {'n_estimators': 100}
+2020-06-26 19:45:25,546 Score for LBboost ({'n_estimators': 100}) is 0.7442933326806521
+2020-06-26 19:45:25,546 Run Time for LGboost ({'n_estimators': 100}) is 0.0 minutes
+2020-06-26 19:46:13,613 LGBoost Run Start for paramter {'learning_rate': 0.05}
+2020-06-26 19:46:21,924 Score for LBboost ({'learning_rate': 0.05}) is 0.7418113269923883
+2020-06-26 19:46:21,924 Run Time for LGboost ({'learning_rate': 0.05}) is 0.0 minutes
+2020-06-26 19:46:21,925 LGBoost Run Start for paramter {'learning_rate': 0.1}
+2020-06-26 19:46:29,155 Score for LBboost ({'learning_rate': 0.1}) is 0.7442933326806521
+2020-06-26 19:46:29,156 Run Time for LGboost ({'learning_rate': 0.1}) is 0.0 minutes
+2020-06-26 19:46:29,156 LGBoost Run Start for paramter {'learning_rate': 0.2}
+2020-06-26 19:46:35,705 Score for LBboost ({'learning_rate': 0.2}) is 0.7432170807793788
+2020-06-26 19:46:35,705 Run Time for LGboost ({'learning_rate': 0.2}) is 0.0 minutes
+2020-06-26 19:46:35,706 LGBoost Run Start for paramter {'learning_rate': 0.4}
+2020-06-26 19:46:41,384 Score for LBboost ({'learning_rate': 0.4}) is 0.7416048137296777
+2020-06-26 19:46:41,384 Run Time for LGboost ({'learning_rate': 0.4}) is 0.0 minutes
+2020-06-26 19:46:41,384 LGBoost Run Start for paramter {'learning_rate': 0.6}
+2020-06-26 19:46:46,844 Score for LBboost ({'learning_rate': 0.6}) is 0.7412275641211635
+2020-06-26 19:46:46,844 Run Time for LGboost ({'learning_rate': 0.6}) is 0.0 minutes
+2020-06-26 19:46:46,845 LGBoost Run Start for paramter {'learning_rate': 0.8}
+2020-06-26 19:46:53,045 Score for LBboost ({'learning_rate': 0.8}) is 0.7402316552193666
+2020-06-26 19:46:53,045 Run Time for LGboost ({'learning_rate': 0.8}) is 0.0 minutes
+2020-06-26 19:46:53,046 LGBoost Run Start for paramter {'learning_rate': 1}
+2020-06-26 19:46:58,314 Score for LBboost ({'learning_rate': 1}) is 0.7384901890543323
+2020-06-26 19:46:58,315 Run Time for LGboost ({'learning_rate': 1}) is 0.0 minutes
+2020-06-26 19:46:58,315 LGBoost Run Start for paramter {'max_depth': 1}
+2020-06-26 19:47:01,407 Score for LBboost ({'max_depth': 1}) is 0.5968634113680208
+2020-06-26 19:47:01,407 Run Time for LGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-26 19:47:01,407 LGBoost Run Start for paramter {'max_depth': 2}
+2020-06-26 19:47:04,926 Score for LBboost ({'max_depth': 2}) is 0.7162812642009633
+2020-06-26 19:47:04,927 Run Time for LGboost ({'max_depth': 2}) is 0.0 minutes
+2020-06-26 19:47:04,928 LGBoost Run Start for paramter {'max_depth': 3}
+2020-06-26 19:47:09,195 Score for LBboost ({'max_depth': 3}) is 0.7390297547434125
+2020-06-26 19:47:09,196 Run Time for LGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-26 19:47:09,196 LGBoost Run Start for paramter {'max_depth': 4}
+2020-06-26 19:47:14,451 Score for LBboost ({'max_depth': 4}) is 0.7435092139283757
+2020-06-26 19:47:14,451 Run Time for LGboost ({'max_depth': 4}) is 0.0 minutes
+2020-06-26 19:47:14,451 LGBoost Run Start for paramter {'max_depth': 5}
+2020-06-26 19:47:20,329 Score for LBboost ({'max_depth': 5}) is 0.7442538565894413
+2020-06-26 19:47:20,330 Run Time for LGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-26 19:47:20,330 LGBoost Run Start for paramter {'max_depth': 10}
+2020-06-26 19:47:27,300 Score for LBboost ({'max_depth': 10}) is 0.7442549354199295
+2020-06-26 19:47:27,301 Run Time for LGboost ({'max_depth': 10}) is 0.0 minutes
+2020-06-26 19:47:27,301 LGBoost Run Start for paramter {'max_depth': 20}
+2020-06-26 19:47:34,329 Score for LBboost ({'max_depth': 20}) is 0.7442933326806521
+2020-06-26 19:47:34,329 Run Time for LGboost ({'max_depth': 20}) is 0.0 minutes
+2020-06-26 19:47:34,329 LGBoost Run Start for paramter {'max_depth': 50}
+2020-06-26 19:47:41,354 Score for LBboost ({'max_depth': 50}) is 0.7442933326806521
+2020-06-26 19:47:41,354 Run Time for LGboost ({'max_depth': 50}) is 0.0 minutes
+2020-06-26 19:47:41,355 LGBoost Run Start for paramter {'n_estimators': 1}
+2020-06-26 19:47:43,252 Score for LBboost ({'n_estimators': 1}) is 0.10629644321831422
+2020-06-26 19:47:43,253 Run Time for LGboost ({'n_estimators': 1}) is 0.0 minutes
+2020-06-26 19:47:43,253 LGBoost Run Start for paramter {'n_estimators': 2}
+2020-06-26 19:47:45,606 Score for LBboost ({'n_estimators': 2}) is 0.1923602625170534
+2020-06-26 19:47:45,606 Run Time for LGboost ({'n_estimators': 2}) is 0.0 minutes
+2020-06-26 19:47:45,606 LGBoost Run Start for paramter {'n_estimators': 3}
+2020-06-26 19:47:47,723 Score for LBboost ({'n_estimators': 3}) is 0.26505571193746724
+2020-06-26 19:47:47,724 Run Time for LGboost ({'n_estimators': 3}) is 0.0 minutes
+2020-06-26 19:47:47,724 LGBoost Run Start for paramter {'n_estimators': 4}
+2020-06-26 19:47:50,135 Score for LBboost ({'n_estimators': 4}) is 0.32527909652819187
+2020-06-26 19:47:50,136 Run Time for LGboost ({'n_estimators': 4}) is 0.0 minutes
+2020-06-26 19:47:50,136 LGBoost Run Start for paramter {'n_estimators': 5}
+2020-06-26 19:47:52,571 Score for LBboost ({'n_estimators': 5}) is 0.3772428368133379
+2020-06-26 19:47:52,571 Run Time for LGboost ({'n_estimators': 5}) is 0.0 minutes
+2020-06-26 19:47:52,572 LGBoost Run Start for paramter {'n_estimators': 15}
+2020-06-26 19:47:56,040 Score for LBboost ({'n_estimators': 15}) is 0.6302705768185906
+2020-06-26 19:47:56,040 Run Time for LGboost ({'n_estimators': 15}) is 0.0 minutes
+2020-06-26 19:47:56,041 LGBoost Run Start for paramter {'n_estimators': 20}
+2020-06-26 19:47:59,243 Score for LBboost ({'n_estimators': 20}) is 0.6801151817915136
+2020-06-26 19:47:59,243 Run Time for LGboost ({'n_estimators': 20}) is 0.0 minutes
+2020-06-26 19:47:59,244 LGBoost Run Start for paramter {'n_estimators': 25}
+2020-06-26 19:48:03,075 Score for LBboost ({'n_estimators': 25}) is 0.7077440777115607
+2020-06-26 19:48:03,076 Run Time for LGboost ({'n_estimators': 25}) is 0.0 minutes
+2020-06-26 19:48:03,076 LGBoost Run Start for paramter {'n_estimators': 40}
+2020-06-26 19:48:08,071 Score for LBboost ({'n_estimators': 40}) is 0.7370297350974371
+2020-06-26 19:48:08,071 Run Time for LGboost ({'n_estimators': 40}) is 0.0 minutes
+2020-06-26 19:48:08,072 LGBoost Run Start for paramter {'n_estimators': 50}
+2020-06-26 19:48:12,886 Score for LBboost ({'n_estimators': 50}) is 0.7415857952896163
+2020-06-26 19:48:12,887 Run Time for LGboost ({'n_estimators': 50}) is 0.0 minutes
+2020-06-26 19:48:12,887 LGBoost Run Start for paramter {'n_estimators': 70}
+2020-06-26 19:48:19,404 Score for LBboost ({'n_estimators': 70}) is 0.7438406645316276
+2020-06-26 19:48:19,405 Run Time for LGboost ({'n_estimators': 70}) is 0.0 minutes
+2020-06-26 19:48:19,405 LGBoost Run Start for paramter {'n_estimators': 100}
+2020-06-26 19:48:27,845 Score for LBboost ({'n_estimators': 100}) is 0.7442933326806521
+2020-06-26 19:48:27,845 Run Time for LGboost ({'n_estimators': 100}) is 0.0 minutes
+2020-06-26 19:48:51,529 LGBoost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}
+2020-06-26 19:48:59,579 Score for LBboost ({'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}) is 0.7442933326806521
+2020-06-26 19:48:59,579 Run Time for LGboost ({'learning_rate': 0.1, 'max_depth': 20, 'n_estimators': 100}) is 0.0 minutes

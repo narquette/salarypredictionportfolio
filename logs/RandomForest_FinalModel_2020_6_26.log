@@ -1,0 +1,8 @@
+2020-06-26 10:51:57,923 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 10:55:07,724 Score for Random Forest ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 0.7425558185104432
+2020-06-26 10:55:07,724 Run Time for Random Forest ({'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}) is 3.0 minutes
+2020-06-26 10:59:00,312 Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2020-06-26 10:59:00,318 Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2020-06-26 21:12:38,318 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 21:16:17,694 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+2020-06-26 21:17:55,743 Random Forest Run Start for paramter {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}

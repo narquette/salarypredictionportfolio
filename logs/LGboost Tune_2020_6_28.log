@@ -1,0 +1,588 @@
+2020-06-28 22:29:41,727 LGBoost Run Start for paramter {'learning_rate': 0.05}
+2020-06-28 22:29:47,272 Score for LBboost ({'learning_rate': 0.05}) is 0.7947220294631361
+2020-06-28 22:29:47,272 Run Time for LGboost ({'learning_rate': 0.05}) is 0.0 minutes
+2020-06-28 22:29:47,273 LGBoost Run Start for paramter {'learning_rate': 0.1}
+2020-06-28 22:29:53,263 Score for LBboost ({'learning_rate': 0.1}) is 0.7978487388726965
+2020-06-28 22:29:53,263 Run Time for LGboost ({'learning_rate': 0.1}) is 0.0 minutes
+2020-06-28 22:29:53,265 LGBoost Run Start for paramter {'learning_rate': 0.2}
+2020-06-28 22:29:57,773 Score for LBboost ({'learning_rate': 0.2}) is 0.7973248139111372
+2020-06-28 22:29:57,773 Run Time for LGboost ({'learning_rate': 0.2}) is 0.0 minutes
+2020-06-28 22:29:57,773 LGBoost Run Start for paramter {'learning_rate': 0.4}
+2020-06-28 22:30:02,062 Score for LBboost ({'learning_rate': 0.4}) is 0.7960688921715202
+2020-06-28 22:30:02,062 Run Time for LGboost ({'learning_rate': 0.4}) is 0.0 minutes
+2020-06-28 22:30:02,062 LGBoost Run Start for paramter {'learning_rate': 0.6}
+2020-06-28 22:30:06,501 Score for LBboost ({'learning_rate': 0.6}) is 0.795768883847659
+2020-06-28 22:30:06,501 Run Time for LGboost ({'learning_rate': 0.6}) is 0.0 minutes
+2020-06-28 22:30:06,502 LGBoost Run Start for paramter {'learning_rate': 0.8}
+2020-06-28 22:30:10,663 Score for LBboost ({'learning_rate': 0.8}) is 0.7952301140316506
+2020-06-28 22:30:10,663 Run Time for LGboost ({'learning_rate': 0.8}) is 0.0 minutes
+2020-06-28 22:30:10,663 LGBoost Run Start for paramter {'learning_rate': 1}
+2020-06-28 22:30:15,542 Score for LBboost ({'learning_rate': 1}) is 0.7940980260847323
+2020-06-28 22:30:15,542 Run Time for LGboost ({'learning_rate': 1}) is 0.0 minutes
+2020-06-28 22:30:15,542 LGBoost Run Start for paramter {'max_depth': 1}
+2020-06-28 22:30:18,294 Score for LBboost ({'max_depth': 1}) is 0.6373646506393869
+2020-06-28 22:30:18,295 Run Time for LGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-28 22:30:18,295 LGBoost Run Start for paramter {'max_depth': 3}
+2020-06-28 22:30:21,939 Score for LBboost ({'max_depth': 3}) is 0.7886617207473385
+2020-06-28 22:30:21,941 Run Time for LGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-28 22:30:21,942 LGBoost Run Start for paramter {'max_depth': 5}
+2020-06-28 22:30:26,652 Score for LBboost ({'max_depth': 5}) is 0.7974758861354341
+2020-06-28 22:30:26,653 Run Time for LGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-28 22:30:26,653 LGBoost Run Start for paramter {'max_depth': 7}
+2020-06-28 22:30:31,882 Score for LBboost ({'max_depth': 7}) is 0.7980583328327362
+2020-06-28 22:30:31,882 Run Time for LGboost ({'max_depth': 7}) is 0.0 minutes
+2020-06-28 22:30:31,882 LGBoost Run Start for paramter {'max_depth': 9}
+2020-06-28 22:30:37,249 Score for LBboost ({'max_depth': 9}) is 0.7978692378673632
+2020-06-28 22:30:37,250 Run Time for LGboost ({'max_depth': 9}) is 0.0 minutes
+2020-06-28 22:30:37,250 LGBoost Run Start for paramter {'max_depth': 11}
+2020-06-28 22:30:42,702 Score for LBboost ({'max_depth': 11}) is 0.7978505660583357
+2020-06-28 22:30:42,702 Run Time for LGboost ({'max_depth': 11}) is 0.0 minutes
+2020-06-28 22:30:42,703 LGBoost Run Start for paramter {'max_depth': 13}
+2020-06-28 22:30:48,005 Score for LBboost ({'max_depth': 13}) is 0.7978940048268434
+2020-06-28 22:30:48,005 Run Time for LGboost ({'max_depth': 13}) is 0.0 minutes
+2020-06-28 22:30:48,005 LGBoost Run Start for paramter {'max_depth': 15}
+2020-06-28 22:30:52,967 Score for LBboost ({'max_depth': 15}) is 0.7978487388726965
+2020-06-28 22:30:52,967 Run Time for LGboost ({'max_depth': 15}) is 0.0 minutes
+2020-06-28 22:30:52,967 LGBoost Run Start for paramter {'num_leaves': 1}
+2020-06-28 22:33:54,007 LGBoost Run Start for paramter {'learning_rate': 0.05}
+2020-06-28 22:33:59,780 Score for LBboost ({'learning_rate': 0.05}) is 0.7947220294631361
+2020-06-28 22:33:59,780 Run Time for LGboost ({'learning_rate': 0.05}) is 0.0 minutes
+2020-06-28 22:33:59,780 LGBoost Run Start for paramter {'learning_rate': 0.1}
+2020-06-28 22:34:05,375 Score for LBboost ({'learning_rate': 0.1}) is 0.7978487388726965
+2020-06-28 22:34:05,376 Run Time for LGboost ({'learning_rate': 0.1}) is 0.0 minutes
+2020-06-28 22:34:05,376 LGBoost Run Start for paramter {'learning_rate': 0.2}
+2020-06-28 22:34:10,187 Score for LBboost ({'learning_rate': 0.2}) is 0.7973248139111372
+2020-06-28 22:34:10,187 Run Time for LGboost ({'learning_rate': 0.2}) is 0.0 minutes
+2020-06-28 22:34:10,188 LGBoost Run Start for paramter {'learning_rate': 0.4}
+2020-06-28 22:34:15,540 Score for LBboost ({'learning_rate': 0.4}) is 0.7960688921715202
+2020-06-28 22:34:15,540 Run Time for LGboost ({'learning_rate': 0.4}) is 0.0 minutes
+2020-06-28 22:34:15,540 LGBoost Run Start for paramter {'learning_rate': 0.6}
+2020-06-28 22:34:19,537 Score for LBboost ({'learning_rate': 0.6}) is 0.795768883847659
+2020-06-28 22:34:19,537 Run Time for LGboost ({'learning_rate': 0.6}) is 0.0 minutes
+2020-06-28 22:34:19,537 LGBoost Run Start for paramter {'learning_rate': 0.8}
+2020-06-28 22:34:23,268 Score for LBboost ({'learning_rate': 0.8}) is 0.7952301140316506
+2020-06-28 22:34:23,268 Run Time for LGboost ({'learning_rate': 0.8}) is 0.0 minutes
+2020-06-28 22:34:23,268 LGBoost Run Start for paramter {'learning_rate': 1}
+2020-06-28 22:34:26,984 Score for LBboost ({'learning_rate': 1}) is 0.7940980260847323
+2020-06-28 22:34:26,984 Run Time for LGboost ({'learning_rate': 1}) is 0.0 minutes
+2020-06-28 22:34:26,985 LGBoost Run Start for paramter {'max_depth': 1}
+2020-06-28 22:34:29,595 Score for LBboost ({'max_depth': 1}) is 0.6373646506393869
+2020-06-28 22:34:29,596 Run Time for LGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-28 22:34:29,596 LGBoost Run Start for paramter {'max_depth': 3}
+2020-06-28 22:34:32,956 Score for LBboost ({'max_depth': 3}) is 0.7886617207473385
+2020-06-28 22:34:32,957 Run Time for LGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-28 22:34:32,957 LGBoost Run Start for paramter {'max_depth': 5}
+2020-06-28 22:34:37,774 Score for LBboost ({'max_depth': 5}) is 0.7974758861354341
+2020-06-28 22:34:37,774 Run Time for LGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-28 22:34:37,774 LGBoost Run Start for paramter {'max_depth': 7}
+2020-06-28 22:34:42,815 Score for LBboost ({'max_depth': 7}) is 0.7980583328327362
+2020-06-28 22:34:42,815 Run Time for LGboost ({'max_depth': 7}) is 0.0 minutes
+2020-06-28 22:34:42,815 LGBoost Run Start for paramter {'max_depth': 9}
+2020-06-28 22:34:48,113 Score for LBboost ({'max_depth': 9}) is 0.7978692378673632
+2020-06-28 22:34:48,114 Run Time for LGboost ({'max_depth': 9}) is 0.0 minutes
+2020-06-28 22:34:48,114 LGBoost Run Start for paramter {'max_depth': 11}
+2020-06-28 22:34:53,517 Score for LBboost ({'max_depth': 11}) is 0.7978505660583357
+2020-06-28 22:34:53,518 Run Time for LGboost ({'max_depth': 11}) is 0.0 minutes
+2020-06-28 22:34:53,518 LGBoost Run Start for paramter {'max_depth': 13}
+2020-06-28 22:34:59,387 Score for LBboost ({'max_depth': 13}) is 0.7978940048268434
+2020-06-28 22:34:59,387 Run Time for LGboost ({'max_depth': 13}) is 0.0 minutes
+2020-06-28 22:34:59,387 LGBoost Run Start for paramter {'max_depth': 15}
+2020-06-28 22:35:04,156 Score for LBboost ({'max_depth': 15}) is 0.7978487388726965
+2020-06-28 22:35:04,156 Run Time for LGboost ({'max_depth': 15}) is 0.0 minutes
+2020-06-28 22:35:04,156 LGBoost Run Start for paramter {'num_leaves': 1}
+2020-06-28 22:35:54,108 LGBoost Run Start for paramter {'learning_rate': 0.05}
+2020-06-28 22:36:00,177 Score for LBboost ({'learning_rate': 0.05}) is 0.7947220294631361
+2020-06-28 22:36:00,177 Run Time for LGboost ({'learning_rate': 0.05}) is 0.0 minutes
+2020-06-28 22:36:00,178 LGBoost Run Start for paramter {'learning_rate': 0.1}
+2020-06-28 22:36:05,639 Score for LBboost ({'learning_rate': 0.1}) is 0.7978487388726965
+2020-06-28 22:36:05,639 Run Time for LGboost ({'learning_rate': 0.1}) is 0.0 minutes
+2020-06-28 22:36:05,640 LGBoost Run Start for paramter {'learning_rate': 0.2}
+2020-06-28 22:36:09,899 Score for LBboost ({'learning_rate': 0.2}) is 0.7973248139111372
+2020-06-28 22:36:09,900 Run Time for LGboost ({'learning_rate': 0.2}) is 0.0 minutes
+2020-06-28 22:36:09,900 LGBoost Run Start for paramter {'learning_rate': 0.4}
+2020-06-28 22:36:13,656 Score for LBboost ({'learning_rate': 0.4}) is 0.7960688921715202
+2020-06-28 22:36:13,656 Run Time for LGboost ({'learning_rate': 0.4}) is 0.0 minutes
+2020-06-28 22:36:13,657 LGBoost Run Start for paramter {'learning_rate': 0.6}
+2020-06-28 22:36:17,345 Score for LBboost ({'learning_rate': 0.6}) is 0.795768883847659
+2020-06-28 22:36:17,345 Run Time for LGboost ({'learning_rate': 0.6}) is 0.0 minutes
+2020-06-28 22:36:17,345 LGBoost Run Start for paramter {'learning_rate': 0.8}
+2020-06-28 22:36:21,303 Score for LBboost ({'learning_rate': 0.8}) is 0.7952301140316506
+2020-06-28 22:36:21,303 Run Time for LGboost ({'learning_rate': 0.8}) is 0.0 minutes
+2020-06-28 22:36:21,304 LGBoost Run Start for paramter {'learning_rate': 1}
+2020-06-28 22:36:25,819 Score for LBboost ({'learning_rate': 1}) is 0.7940980260847323
+2020-06-28 22:36:25,819 Run Time for LGboost ({'learning_rate': 1}) is 0.0 minutes
+2020-06-28 22:36:25,820 LGBoost Run Start for paramter {'max_depth': 1}
+2020-06-28 22:36:28,219 Score for LBboost ({'max_depth': 1}) is 0.6373646506393869
+2020-06-28 22:36:28,219 Run Time for LGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-28 22:36:28,220 LGBoost Run Start for paramter {'max_depth': 3}
+2020-06-28 22:36:31,475 Score for LBboost ({'max_depth': 3}) is 0.7886617207473385
+2020-06-28 22:36:31,475 Run Time for LGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-28 22:36:31,475 LGBoost Run Start for paramter {'max_depth': 5}
+2020-06-28 22:36:35,532 Score for LBboost ({'max_depth': 5}) is 0.7974758861354341
+2020-06-28 22:36:35,532 Run Time for LGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-28 22:36:35,532 LGBoost Run Start for paramter {'max_depth': 7}
+2020-06-28 22:36:40,083 Score for LBboost ({'max_depth': 7}) is 0.7980583328327362
+2020-06-28 22:36:40,083 Run Time for LGboost ({'max_depth': 7}) is 0.0 minutes
+2020-06-28 22:36:40,083 LGBoost Run Start for paramter {'max_depth': 9}
+2020-06-28 22:36:45,084 Score for LBboost ({'max_depth': 9}) is 0.7978692378673632
+2020-06-28 22:36:45,085 Run Time for LGboost ({'max_depth': 9}) is 0.0 minutes
+2020-06-28 22:36:45,085 LGBoost Run Start for paramter {'max_depth': 11}
+2020-06-28 22:36:50,311 Score for LBboost ({'max_depth': 11}) is 0.7978505660583357
+2020-06-28 22:36:50,311 Run Time for LGboost ({'max_depth': 11}) is 0.0 minutes
+2020-06-28 22:36:50,311 LGBoost Run Start for paramter {'max_depth': 13}
+2020-06-28 22:36:55,873 Score for LBboost ({'max_depth': 13}) is 0.7978940048268434
+2020-06-28 22:36:55,874 Run Time for LGboost ({'max_depth': 13}) is 0.0 minutes
+2020-06-28 22:36:55,874 LGBoost Run Start for paramter {'max_depth': 15}
+2020-06-28 22:37:01,529 Score for LBboost ({'max_depth': 15}) is 0.7978487388726965
+2020-06-28 22:37:01,529 Run Time for LGboost ({'max_depth': 15}) is 0.0 minutes
+2020-06-28 22:37:01,529 LGBoost Run Start for paramter {'num_leaves': 2}
+2020-06-28 22:37:04,184 Score for LBboost ({'num_leaves': 2}) is 0.6373646506393869
+2020-06-28 22:37:04,184 Run Time for LGboost ({'num_leaves': 2}) is 0.0 minutes
+2020-06-28 22:37:04,184 LGBoost Run Start for paramter {'num_leaves': 7}
+2020-06-28 22:37:08,318 Score for LBboost ({'num_leaves': 7}) is 0.7924577738815954
+2020-06-28 22:37:08,319 Run Time for LGboost ({'num_leaves': 7}) is 0.0 minutes
+2020-06-28 22:37:08,319 LGBoost Run Start for paramter {'num_leaves': 31}
+2020-06-28 22:37:13,298 Score for LBboost ({'num_leaves': 31}) is 0.7978487388726965
+2020-06-28 22:37:13,298 Run Time for LGboost ({'num_leaves': 31}) is 0.0 minutes
+2020-06-28 22:37:13,298 LGBoost Run Start for paramter {'num_leaves': 126}
+2020-06-28 22:37:20,072 Score for LBboost ({'num_leaves': 126}) is 0.7982977784276392
+2020-06-28 22:37:20,072 Run Time for LGboost ({'num_leaves': 126}) is 0.0 minutes
+2020-06-28 22:37:20,072 LGBoost Run Start for paramter {'num_leaves': 2020}
+2020-06-28 22:37:45,455 Score for LBboost ({'num_leaves': 2020}) is 0.7942516452136076
+2020-06-28 22:37:45,455 Run Time for LGboost ({'num_leaves': 2020}) is 0.0 minutes
+2020-06-28 22:37:45,455 LGBoost Run Start for paramter {'num_leaves': 8000}
+2020-06-28 22:39:09,102 Score for LBboost ({'num_leaves': 8000}) is 0.7833764438030091
+2020-06-28 22:39:09,103 Run Time for LGboost ({'num_leaves': 8000}) is 1.0 minutes
+2020-06-28 22:39:09,103 LGBoost Run Start for paramter {'num_leaves': 10000}
+2020-06-28 22:40:36,948 Score for LBboost ({'num_leaves': 10000}) is 0.7803245929329168
+2020-06-28 22:40:36,948 Run Time for LGboost ({'num_leaves': 10000}) is 1.0 minutes
+2020-06-28 22:40:36,949 LGBoost Run Start for paramter {'n_estimators': 1}
+2020-06-28 22:40:38,336 Score for LBboost ({'n_estimators': 1}) is 0.09451657192466245
+2020-06-28 22:40:38,336 Run Time for LGboost ({'n_estimators': 1}) is 0.0 minutes
+2020-06-28 22:40:38,337 LGBoost Run Start for paramter {'n_estimators': 2}
+2020-06-28 22:40:39,761 Score for LBboost ({'n_estimators': 2}) is 0.18945938342975432
+2020-06-28 22:40:39,762 Run Time for LGboost ({'n_estimators': 2}) is 0.0 minutes
+2020-06-28 22:40:39,762 LGBoost Run Start for paramter {'n_estimators': 3}
+2020-06-28 22:40:41,221 Score for LBboost ({'n_estimators': 3}) is 0.26243303529940765
+2020-06-28 22:40:41,221 Run Time for LGboost ({'n_estimators': 3}) is 0.0 minutes
+2020-06-28 22:40:41,221 LGBoost Run Start for paramter {'n_estimators': 4}
+2020-06-28 22:40:42,723 Score for LBboost ({'n_estimators': 4}) is 0.32002203360062276
+2020-06-28 22:40:42,724 Run Time for LGboost ({'n_estimators': 4}) is 0.0 minutes
+2020-06-28 22:40:42,724 LGBoost Run Start for paramter {'n_estimators': 5}
+2020-06-28 22:40:44,348 Score for LBboost ({'n_estimators': 5}) is 0.3845967099453129
+2020-06-28 22:40:44,348 Run Time for LGboost ({'n_estimators': 5}) is 0.0 minutes
+2020-06-28 22:40:44,348 LGBoost Run Start for paramter {'n_estimators': 15}
+2020-06-28 22:40:46,578 Score for LBboost ({'n_estimators': 15}) is 0.6776781743654094
+2020-06-28 22:40:46,578 Run Time for LGboost ({'n_estimators': 15}) is 0.0 minutes
+2020-06-28 22:40:46,578 LGBoost Run Start for paramter {'n_estimators': 20}
+2020-06-28 22:40:49,061 Score for LBboost ({'n_estimators': 20}) is 0.7288349567794852
+2020-06-28 22:40:49,062 Run Time for LGboost ({'n_estimators': 20}) is 0.0 minutes
+2020-06-28 22:40:49,062 LGBoost Run Start for paramter {'n_estimators': 25}
+2020-06-28 22:40:51,348 Score for LBboost ({'n_estimators': 25}) is 0.7573982766835736
+2020-06-28 22:40:51,349 Run Time for LGboost ({'n_estimators': 25}) is 0.0 minutes
+2020-06-28 22:40:51,349 LGBoost Run Start for paramter {'n_estimators': 40}
+2020-06-28 22:40:54,181 Score for LBboost ({'n_estimators': 40}) is 0.7892120883239037
+2020-06-28 22:40:54,181 Run Time for LGboost ({'n_estimators': 40}) is 0.0 minutes
+2020-06-28 22:40:54,181 LGBoost Run Start for paramter {'n_estimators': 50}
+2020-06-28 22:40:57,492 Score for LBboost ({'n_estimators': 50}) is 0.7944789965284976
+2020-06-28 22:40:57,492 Run Time for LGboost ({'n_estimators': 50}) is 0.0 minutes
+2020-06-28 22:40:57,492 LGBoost Run Start for paramter {'n_estimators': 70}
+2020-06-28 22:41:01,490 Score for LBboost ({'n_estimators': 70}) is 0.7971556587522192
+2020-06-28 22:41:01,490 Run Time for LGboost ({'n_estimators': 70}) is 0.0 minutes
+2020-06-28 22:41:01,490 LGBoost Run Start for paramter {'n_estimators': 100}
+2020-06-28 22:41:06,400 Score for LBboost ({'n_estimators': 100}) is 0.7978487388726965
+2020-06-28 22:41:06,400 Run Time for LGboost ({'n_estimators': 100}) is 0.0 minutes
+2020-06-28 22:41:06,400 LGBoost Run Start for paramter {'min_data_in_leaf': 100}
+2020-06-28 22:41:11,363 Score for LBboost ({'min_data_in_leaf': 100}) is 0.7978668157262505
+2020-06-28 22:41:11,363 Run Time for LGboost ({'min_data_in_leaf': 100}) is 0.0 minutes
+2020-06-28 22:41:11,364 LGBoost Run Start for paramter {'min_data_in_leaf': 250}
+2020-06-28 22:41:16,216 Score for LBboost ({'min_data_in_leaf': 250}) is 0.7978485453038126
+2020-06-28 22:41:16,216 Run Time for LGboost ({'min_data_in_leaf': 250}) is 0.0 minutes
+2020-06-28 22:41:16,216 LGBoost Run Start for paramter {'min_data_in_leaf': 500}
+2020-06-28 22:41:21,249 Score for LBboost ({'min_data_in_leaf': 500}) is 0.7978529642831631
+2020-06-28 22:41:21,250 Run Time for LGboost ({'min_data_in_leaf': 500}) is 0.0 minutes
+2020-06-28 22:41:21,250 LGBoost Run Start for paramter {'min_data_in_leaf': 750}
+2020-06-28 22:41:26,236 Score for LBboost ({'min_data_in_leaf': 750}) is 0.7978935137788412
+2020-06-28 22:41:26,237 Run Time for LGboost ({'min_data_in_leaf': 750}) is 0.0 minutes
+2020-06-28 22:41:26,237 LGBoost Run Start for paramter {'min_data_in_leaf': 1000}
+2020-06-28 22:41:31,298 Score for LBboost ({'min_data_in_leaf': 1000}) is 0.7978428275878696
+2020-06-28 22:41:31,298 Run Time for LGboost ({'min_data_in_leaf': 1000}) is 0.0 minutes
+2020-06-28 22:42:34,013 LGBoost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 7, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 750}
+2020-06-28 22:42:39,438 Score for LBboost ({'learning_rate': 0.1, 'max_depth': 7, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 750}) is 0.7982385654637383
+2020-06-28 22:42:39,438 Run Time for LGboost ({'learning_rate': 0.1, 'max_depth': 7, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 750}) is 0.0 minutes
+2020-06-28 22:58:18,810 Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2020-06-28 22:58:18,815 Loaded backend module://ipykernel.pylab.backend_inline version unknown.
+2020-06-28 22:58:36,393 locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f3d9cc4b8d0>
+2020-06-28 22:58:36,412 Using auto colorbar locator on colorbar
+2020-06-28 22:58:36,412 locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f3d9cc4b8d0>
+2020-06-28 22:58:36,412 Setting pcolormesh
+2020-06-28 22:58:36,421 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2020-06-28 22:58:36,422 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,422 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,422 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,422 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,422 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:36,422 findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,423 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,423 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,423 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:36,423 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:36,423 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:36,423 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:36,423 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,423 findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,423 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,424 findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,424 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:36,424 findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,424 findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,424 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,424 findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,424 findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:36,424 findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,424 findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:36,425 findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,425 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,425 findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,425 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,426 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,426 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:36,426 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,426 findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:36,426 findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+2020-06-28 22:58:36,426 findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2020-06-28 22:58:36,426 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,426 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,427 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,427 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,427 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:36,427 findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,427 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,427 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,427 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:36,427 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:36,427 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+2020-06-28 22:58:36,428 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2020-06-28 22:58:36,428 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,428 findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,428 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,428 findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,428 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:36,428 findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,428 findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,428 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,429 findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,429 findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:36,429 findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2020-06-28 22:58:36,429 findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,429 findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,429 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:36,429 findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,429 findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,429 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,430 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,430 findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,430 findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,430 findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:36,430 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+2020-06-28 22:58:36,430 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:36,430 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:36,430 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:36,430 findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:36,430 findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-06-28 22:58:43,908 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=11.0.
+2020-06-28 22:58:43,908 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,908 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,908 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,908 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,908 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:43,908 findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,908 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,909 findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:43,910 findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:43,910 findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,910 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,910 findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,910 findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,911 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,911 findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:43,911 findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+2020-06-28 22:58:43,911 findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=11.0.
+2020-06-28 22:58:43,911 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,911 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:43,911 findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,912 findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:43,913 findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:43,913 findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,913 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,913 findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:43,913 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:43,914 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:43,914 findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:43,914 findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=11.0 to DejaVu Sans ('/home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-06-28 22:58:52,414 findfont: Matching :family=sans-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2020-06-28 22:58:52,415 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,417 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,419 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,420 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,420 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:52,420 findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,420 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,421 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,421 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:52,421 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:52,421 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:52,422 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:52,422 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,422 findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,422 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,422 findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,423 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:52,423 findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,423 findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,423 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,424 findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,424 findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:52,425 findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,425 findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,425 findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,425 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:52,425 findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,426 findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,426 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,426 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,429 findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,430 findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,431 findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,431 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,431 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,432 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:52,432 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,432 findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:52,432 findfont: Font family ['sans-serif'] not found. Falling back to DejaVu Sans.
+2020-06-28 22:58:52,432 findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+2020-06-28 22:58:52,433 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,433 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,433 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,433 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,434 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:52,434 findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,434 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,434 findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,434 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:52,435 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal bold normal>) = 11.335
+2020-06-28 22:58:52,435 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal bold normal>) = 1.335
+2020-06-28 22:58:52,435 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+2020-06-28 22:58:52,435 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,435 findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,436 findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,436 findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,436 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+2020-06-28 22:58:52,437 findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,437 findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,437 findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,437 findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,438 findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:52,438 findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+2020-06-28 22:58:52,438 findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,438 findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,438 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal bold normal>) = 11.335
+2020-06-28 22:58:52,439 findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,439 findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,439 findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,440 findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,440 findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,440 findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,440 findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+2020-06-28 22:58:52,441 findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal bold normal>) = 0.33499999999999996
+2020-06-28 22:58:52,441 findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+2020-06-28 22:58:52,442 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:52,443 findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal bold normal>) = 10.335
+2020-06-28 22:58:52,443 findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+2020-06-28 22:58:52,443 findfont: Matching :family=DejaVu Sans:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/home/narquette/anaconda/envs/capstone/lib/python3.7/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+2020-06-28 23:03:25,257 locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f3d25f95110>
+2020-06-28 23:03:25,270 Using auto colorbar locator on colorbar
+2020-06-28 23:03:25,270 locator: <matplotlib.colorbar._ColorbarAutoLocator object at 0x7f3d25f95110>
+2020-06-28 23:03:25,270 Setting pcolormesh
+2020-06-28 23:07:16,030 LGBoost Run Start for paramter {'learning_rate': 0.05}
+2020-06-28 23:07:22,283 Score for LBboost ({'learning_rate': 0.05}) is 0.8015183758889058
+2020-06-28 23:07:22,283 Run Time for LGboost ({'learning_rate': 0.05}) is 0.0 minutes
+2020-06-28 23:07:22,283 LGBoost Run Start for paramter {'learning_rate': 0.1}
+2020-06-28 23:07:28,559 Score for LBboost ({'learning_rate': 0.1}) is 0.8078738810484789
+2020-06-28 23:07:28,559 Run Time for LGboost ({'learning_rate': 0.1}) is 0.0 minutes
+2020-06-28 23:07:28,560 LGBoost Run Start for paramter {'learning_rate': 0.2}
+2020-06-28 23:07:33,647 Score for LBboost ({'learning_rate': 0.2}) is 0.8069822072265371
+2020-06-28 23:07:33,647 Run Time for LGboost ({'learning_rate': 0.2}) is 0.0 minutes
+2020-06-28 23:07:33,648 LGBoost Run Start for paramter {'learning_rate': 0.4}
+2020-06-28 23:07:38,233 Score for LBboost ({'learning_rate': 0.4}) is 0.805571640073611
+2020-06-28 23:07:38,234 Run Time for LGboost ({'learning_rate': 0.4}) is 0.0 minutes
+2020-06-28 23:07:38,234 LGBoost Run Start for paramter {'learning_rate': 0.6}
+2020-06-28 23:07:43,019 Score for LBboost ({'learning_rate': 0.6}) is 0.8051932517942815
+2020-06-28 23:07:43,020 Run Time for LGboost ({'learning_rate': 0.6}) is 0.0 minutes
+2020-06-28 23:07:43,020 LGBoost Run Start for paramter {'learning_rate': 0.8}
+2020-06-28 23:07:47,439 Score for LBboost ({'learning_rate': 0.8}) is 0.8035489814649134
+2020-06-28 23:07:47,440 Run Time for LGboost ({'learning_rate': 0.8}) is 0.0 minutes
+2020-06-28 23:07:47,440 LGBoost Run Start for paramter {'learning_rate': 1}
+2020-06-28 23:07:51,495 Score for LBboost ({'learning_rate': 1}) is 0.8000572373795949
+2020-06-28 23:07:51,495 Run Time for LGboost ({'learning_rate': 1}) is 0.0 minutes
+2020-06-28 23:07:51,495 LGBoost Run Start for paramter {'max_depth': 1}
+2020-06-28 23:07:54,461 Score for LBboost ({'max_depth': 1}) is 0.6520387121562783
+2020-06-28 23:07:54,461 Run Time for LGboost ({'max_depth': 1}) is 0.0 minutes
+2020-06-28 23:07:54,462 LGBoost Run Start for paramter {'max_depth': 3}
+2020-06-28 23:07:58,455 Score for LBboost ({'max_depth': 3}) is 0.7938897520241214
+2020-06-28 23:07:58,455 Run Time for LGboost ({'max_depth': 3}) is 0.0 minutes
+2020-06-28 23:07:58,456 LGBoost Run Start for paramter {'max_depth': 5}
+2020-06-28 23:08:03,356 Score for LBboost ({'max_depth': 5}) is 0.8066943060276799
+2020-06-28 23:08:03,356 Run Time for LGboost ({'max_depth': 5}) is 0.0 minutes
+2020-06-28 23:08:03,357 LGBoost Run Start for paramter {'max_depth': 7}
+2020-06-28 23:08:09,738 Score for LBboost ({'max_depth': 7}) is 0.8079307671887233
+2020-06-28 23:08:09,738 Run Time for LGboost ({'max_depth': 7}) is 0.0 minutes
+2020-06-28 23:08:09,739 LGBoost Run Start for paramter {'max_depth': 9}
+2020-06-28 23:08:15,766 Score for LBboost ({'max_depth': 9}) is 0.8079354687315768
+2020-06-28 23:08:15,766 Run Time for LGboost ({'max_depth': 9}) is 0.0 minutes
+2020-06-28 23:08:15,767 LGBoost Run Start for paramter {'max_depth': 11}
+2020-06-28 23:08:21,328 Score for LBboost ({'max_depth': 11}) is 0.8078619955974778
+2020-06-28 23:08:21,329 Run Time for LGboost ({'max_depth': 11}) is 0.0 minutes
+2020-06-28 23:08:21,329 LGBoost Run Start for paramter {'max_depth': 13}
+2020-06-28 23:08:26,918 Score for LBboost ({'max_depth': 13}) is 0.807815670003974
+2020-06-28 23:08:26,918 Run Time for LGboost ({'max_depth': 13}) is 0.0 minutes
+2020-06-28 23:08:26,918 LGBoost Run Start for paramter {'max_depth': 15}
+2020-06-28 23:08:34,142 Score for LBboost ({'max_depth': 15}) is 0.8078676110207288
+2020-06-28 23:08:34,142 Run Time for LGboost ({'max_depth': 15}) is 0.0 minutes
+2020-06-28 23:08:34,142 LGBoost Run Start for paramter {'num_leaves': 2}
+2020-06-28 23:08:37,250 Score for LBboost ({'num_leaves': 2}) is 0.6520387121562783
+2020-06-28 23:08:37,250 Run Time for LGboost ({'num_leaves': 2}) is 0.0 minutes
+2020-06-28 23:08:37,250 LGBoost Run Start for paramter {'num_leaves': 7}
+2020-06-28 23:08:41,433 Score for LBboost ({'num_leaves': 7}) is 0.7976916412358606
+2020-06-28 23:08:41,434 Run Time for LGboost ({'num_leaves': 7}) is 0.0 minutes
+2020-06-28 23:08:41,434 LGBoost Run Start for paramter {'num_leaves': 31}
+2020-06-28 23:08:47,479 Score for LBboost ({'num_leaves': 31}) is 0.8078738810484789
+2020-06-28 23:08:47,479 Run Time for LGboost ({'num_leaves': 31}) is 0.0 minutes
+2020-06-28 23:08:47,479 LGBoost Run Start for paramter {'num_leaves': 126}
+2020-06-28 23:08:57,090 Score for LBboost ({'num_leaves': 126}) is 0.8088375538912985
+2020-06-28 23:08:57,090 Run Time for LGboost ({'num_leaves': 126}) is 0.0 minutes
+2020-06-28 23:08:57,090 LGBoost Run Start for paramter {'num_leaves': 2020}
+2020-06-28 23:09:22,449 Score for LBboost ({'num_leaves': 2020}) is 0.8051370716415787
+2020-06-28 23:09:22,449 Run Time for LGboost ({'num_leaves': 2020}) is 0.0 minutes
+2020-06-28 23:09:22,450 LGBoost Run Start for paramter {'num_leaves': 8000}
+2020-06-28 23:10:48,542 Score for LBboost ({'num_leaves': 8000}) is 0.7951451389933302
+2020-06-28 23:10:48,543 Run Time for LGboost ({'num_leaves': 8000}) is 1.0 minutes
+2020-06-28 23:10:48,543 LGBoost Run Start for paramter {'num_leaves': 10000}
+2020-06-28 23:12:38,446 Score for LBboost ({'num_leaves': 10000}) is 0.792384956930164
+2020-06-28 23:12:38,447 Run Time for LGboost ({'num_leaves': 10000}) is 1.0 minutes
+2020-06-28 23:12:38,447 LGBoost Run Start for paramter {'n_estimators': 1}
+2020-06-28 23:12:40,087 Score for LBboost ({'n_estimators': 1}) is 0.09789134772596064
+2020-06-28 23:12:40,087 Run Time for LGboost ({'n_estimators': 1}) is 0.0 minutes
+2020-06-28 23:12:40,088 LGBoost Run Start for paramter {'n_estimators': 2}
+2020-06-28 23:12:41,747 Score for LBboost ({'n_estimators': 2}) is 0.1951946471354178
+2020-06-28 23:12:41,747 Run Time for LGboost ({'n_estimators': 2}) is 0.0 minutes
+2020-06-28 23:12:41,747 LGBoost Run Start for paramter {'n_estimators': 3}
+2020-06-28 23:12:43,530 Score for LBboost ({'n_estimators': 3}) is 0.27983238394648835
+2020-06-28 23:12:43,530 Run Time for LGboost ({'n_estimators': 3}) is 0.0 minutes
+2020-06-28 23:12:43,531 LGBoost Run Start for paramter {'n_estimators': 4}
+2020-06-28 23:12:45,338 Score for LBboost ({'n_estimators': 4}) is 0.3495655340523044
+2020-06-28 23:12:45,338 Run Time for LGboost ({'n_estimators': 4}) is 0.0 minutes
+2020-06-28 23:12:45,338 LGBoost Run Start for paramter {'n_estimators': 5}
+2020-06-28 23:12:47,114 Score for LBboost ({'n_estimators': 5}) is 0.4070029614066931
+2020-06-28 23:12:47,115 Run Time for LGboost ({'n_estimators': 5}) is 0.0 minutes
+2020-06-28 23:12:47,115 LGBoost Run Start for paramter {'n_estimators': 15}
+2020-06-28 23:12:49,410 Score for LBboost ({'n_estimators': 15}) is 0.6815038098882379
+2020-06-28 23:12:49,411 Run Time for LGboost ({'n_estimators': 15}) is 0.0 minutes
+2020-06-28 23:12:49,411 LGBoost Run Start for paramter {'n_estimators': 20}
+2020-06-28 23:12:51,969 Score for LBboost ({'n_estimators': 20}) is 0.7301742933595283
+2020-06-28 23:12:51,969 Run Time for LGboost ({'n_estimators': 20}) is 0.0 minutes
+2020-06-28 23:12:51,969 LGBoost Run Start for paramter {'n_estimators': 25}
+2020-06-28 23:12:54,647 Score for LBboost ({'n_estimators': 25}) is 0.7594556945918421
+2020-06-28 23:12:54,648 Run Time for LGboost ({'n_estimators': 25}) is 0.0 minutes
+2020-06-28 23:12:54,648 LGBoost Run Start for paramter {'n_estimators': 40}
+2020-06-28 23:12:58,539 Score for LBboost ({'n_estimators': 40}) is 0.7938032161422846
+2020-06-28 23:12:58,539 Run Time for LGboost ({'n_estimators': 40}) is 0.0 minutes
+2020-06-28 23:12:58,539 LGBoost Run Start for paramter {'n_estimators': 50}
+2020-06-28 23:13:02,233 Score for LBboost ({'n_estimators': 50}) is 0.8009449217476732
+2020-06-28 23:13:02,233 Run Time for LGboost ({'n_estimators': 50}) is 0.0 minutes
+2020-06-28 23:13:02,234 LGBoost Run Start for paramter {'n_estimators': 70}
+2020-06-28 23:13:07,439 Score for LBboost ({'n_estimators': 70}) is 0.8061717963375912
+2020-06-28 23:13:07,439 Run Time for LGboost ({'n_estimators': 70}) is 0.0 minutes
+2020-06-28 23:13:07,439 LGBoost Run Start for paramter {'n_estimators': 100}
+2020-06-28 23:13:14,539 Score for LBboost ({'n_estimators': 100}) is 0.8078738810484789
+2020-06-28 23:13:14,539 Run Time for LGboost ({'n_estimators': 100}) is 0.0 minutes
+2020-06-28 23:13:14,540 LGBoost Run Start for paramter {'min_data_in_leaf': 100}
+2020-06-28 23:13:21,293 Score for LBboost ({'min_data_in_leaf': 100}) is 0.8078740183909947
+2020-06-28 23:13:21,293 Run Time for LGboost ({'min_data_in_leaf': 100}) is 0.0 minutes
+2020-06-28 23:13:21,294 LGBoost Run Start for paramter {'min_data_in_leaf': 250}
+2020-06-28 23:13:27,730 Score for LBboost ({'min_data_in_leaf': 250}) is 0.807862427708812
+2020-06-28 23:13:27,731 Run Time for LGboost ({'min_data_in_leaf': 250}) is 0.0 minutes
+2020-06-28 23:13:27,731 LGBoost Run Start for paramter {'min_data_in_leaf': 500}
+2020-06-28 23:13:33,541 Score for LBboost ({'min_data_in_leaf': 500}) is 0.8078281439723386
+2020-06-28 23:13:33,541 Run Time for LGboost ({'min_data_in_leaf': 500}) is 0.0 minutes
+2020-06-28 23:13:33,541 LGBoost Run Start for paramter {'min_data_in_leaf': 750}
+2020-06-28 23:13:40,837 Score for LBboost ({'min_data_in_leaf': 750}) is 0.807791848975419
+2020-06-28 23:13:40,837 Run Time for LGboost ({'min_data_in_leaf': 750}) is 0.0 minutes
+2020-06-28 23:13:40,838 LGBoost Run Start for paramter {'min_data_in_leaf': 1000}
+2020-06-28 23:13:46,717 Score for LBboost ({'min_data_in_leaf': 1000}) is 0.8077384846544291
+2020-06-28 23:13:46,717 Run Time for LGboost ({'min_data_in_leaf': 1000}) is 0.0 minutes
+2020-06-28 23:13:48,629 LGBoost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 7, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 750}
+2020-06-28 23:13:54,505 Score for LBboost ({'learning_rate': 0.1, 'max_depth': 7, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 750}) is 0.8085586499511531
+2020-06-28 23:13:54,505 Run Time for LGboost ({'learning_rate': 0.1, 'max_depth': 7, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 750}) is 0.0 minutes
+2020-06-28 23:15:37,646 LGBoost Run Start for paramter {'learning_rate': 0.1, 'max_depth': 9, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 100}
+2020-06-28 23:15:44,565 Score for LBboost ({'learning_rate': 0.1, 'max_depth': 9, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 100}) is 0.8088227952069361
+2020-06-28 23:15:44,565 Run Time for LGboost ({'learning_rate': 0.1, 'max_depth': 9, 'num_leaves': 126, 'n_estimators': 100, 'min_data_in_leaf': 100}) is 0.0 minutes
+2020-06-28 23:16:05,377 Linear Regression Start
+2020-06-28 23:16:06,978 Score for Linear Regression is 0.7721987909149779
+2020-06-28 23:16:06,978 Run Time for Linear Regression is 0.0 minutes
