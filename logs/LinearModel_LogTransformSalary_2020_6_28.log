@@ -511,3 +511,17 @@
 2020-06-29 08:58:00,366 Score for Random Forest ({'min_samples_leaf': 6}) is 0.8037734389841606
 2020-06-29 08:58:00,366 Run Time for Random Forest ({'min_samples_leaf': 6}) is 5.0 minutes
 2020-06-29 08:58:00,366 Random Forest Run Start for paramter {'min_samples_leaf': 7}
+2020-06-29 09:03:50,938 Score for Random Forest ({'min_samples_leaf': 7}) is 0.8038074344474584
+2020-06-29 09:03:50,939 Run Time for Random Forest ({'min_samples_leaf': 7}) is 5.0 minutes
+2020-06-29 09:03:50,939 Random Forest Run Start for paramter {'min_samples_leaf': 8}
+2020-06-29 09:09:39,659 Score for Random Forest ({'min_samples_leaf': 8}) is 0.8037673951550154
+2020-06-29 09:09:39,660 Run Time for Random Forest ({'min_samples_leaf': 8}) is 5.0 minutes
+2020-06-29 09:09:39,660 Random Forest Run Start for paramter {'min_samples_leaf': 9}
+2020-06-29 09:15:10,401 Score for Random Forest ({'min_samples_leaf': 9}) is 0.8036557101222983
+2020-06-29 09:15:10,401 Run Time for Random Forest ({'min_samples_leaf': 9}) is 5.0 minutes
+2020-06-29 09:15:10,402 Random Forest Run Start for paramter {'min_samples_leaf': 10}
+2020-06-29 09:20:30,458 Score for Random Forest ({'min_samples_leaf': 10}) is 0.8034888471957261
+2020-06-29 09:20:30,459 Run Time for Random Forest ({'min_samples_leaf': 10}) is 5.0 minutes
+2020-06-29 09:20:30,459 Random Forest Run Start for paramter {'min_samples_leaf': 20}
+2020-06-29 09:25:14,946 Score for Random Forest ({'min_samples_leaf': 20}) is 0.8008490267482568
+2020-06-29 09:25:14,946 Run Time for Random Forest ({'min_samples_leaf': 20}) is 4.0 minutes

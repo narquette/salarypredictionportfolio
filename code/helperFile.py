@@ -4,7 +4,7 @@ import logging
 import datetime
 import time 
 import os
-from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder, OrdinalEncoder
+from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder, OrdinalEncoder, PowerTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.compose import make_column_transformer
 from sklearn.pipeline import make_pipeline
@@ -12,6 +12,7 @@ from sklearn.metrics import mean_squared_error
 from sklearn.model_selection import train_test_split,  cross_val_score
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression
+from sklearn.compose import TransformedTargetRegressor
 import xgboost as xgb
 import lightgbm as lgb
 
@@ -37,6 +38,7 @@ degree_ord_map = {
     'DOCTORAL': 5
 }
 
+# set dictionaries for tuning models
 random_tune = {   
     'max_depth' : [1 ,2 ,3 ,4 ,5 ,10 ,20 ,50],
     'n_estimators':  [1, 2, 3, 4, 5, 15, 20, 25, 40, 50, 70, 100],
@@ -58,9 +60,13 @@ lgb_tune = {
     'min_data_in_leaf': [100, 250, 500, 750, 1000]
 }
 
+# set column names
+numeric_columns =  ['yearsExperience', 'milesFromMetropolis']
+category_columns = ['industry', 'jobType', 'degree', 'major']
+
 class MachineLearning():
     
-    def __init__(self, data, label):
+    def __init__(self, data, label, log_file):
         
         self.data = data
         self.label = label
@@ -76,21 +82,23 @@ class MachineLearning():
                                                     self.y,
                                                     test_size=0.33,
                                                     random_state=42)
-
-    def SetLogFile(self, file_name):
+        # Set log file name and start time
+        self.start = time.time()
         now = datetime.datetime.now()
-        file_name = f"{file_name}_{now.year}_{now.month}_{now.day}.log"
-        logging.basicConfig(format='%(asctime)s %(message)s', filename=file_name, level=logging.DEBUG)
+        self.file_name = f"{log_file}_{now.year}_{now.month}_{now.day}.log"
+        
+        # Start Logging
+        self.logging = logging.basicConfig(format='%(asctime)s %(message)s', filename=self.file_name, level=logging.DEBUG)
         
     def PreProcessing(self, scale_cols, one_hot_cols):#, ordinal_cols):
         
         # set transformer methods
         ohe = OneHotEncoder(handle_unknown='ignore', sparse=True)
         label_encode = LabelEncoder()
-        job_ordinal_encode = OrdinalEncoder(categories=[np.array(list(jobtype_ord_map.keys()), dtype=object)])
-        deg_ordinal_encode = OrdinalEncoder(categories=[np.array(list(degree_ord_map.keys()), dtype=object)])
+#         job_ordinal_encode = OrdinalEncoder(categories=[np.array(list(jobtype_ord_map.keys()), dtype=object)])
+#         deg_ordinal_encode = OrdinalEncoder(categories=[np.array(list(degree_ord_map.keys()), dtype=object)])
         imputer = SimpleImputer(add_indicator=True, verbose=1)
-        scaler = StandardScaler()
+        scaler = PowerTransformer()
 
         # Make Transformer
         self.preprocessing = make_column_transformer(
@@ -99,47 +107,81 @@ class MachineLearning():
              #(deg_ordinal_encode, ordinal_cols[1]),
             (ohe, one_hot_cols),
             remainder='drop')
+        
+       
+    def CrossValidation(self):
+        
+        # start logging
+        start = time.time()
+        logging.info(f"{self.model_name} Start")
+        
+        # model
+        model = TransformedTargetRegressor(regressor=self.pipe, transformer=PowerTransformer())
+          
+        # evaluate model
+        cross_score = cross_val_score(model, self.X, self.y, scoring='neg_mean_absolute_error', cv=None, n_jobs=-1)
+           
+        # convert scores to positive
+        abs_score = np.absolute(cross_score)
+           
+        # summarize the result
+        score = np.mean(abs_score)
+            
+        # set log for finishing
+        logging.info(f"Score for {self.model_name} is {score}")
+        logging.info(f"Run Time for {self.model_name} is {(time.time() - self.start) // 60} minutes")
+        
+        return score
+        
+
+    def Scoring(self):
+        
+        # start logging
+        start = time.time()
+        logging.info(f"{self.model_name} Start")
+        
+        # Score
+        score = self.pipe.score(self.X_test, self.y_test.values.ravel()) 
+
+        # set log for finishing
+        logging.info(f"Score for {self.model_name} is {score}")
+        logging.info(f"Run Time for Linear Regression is {(time.time() - self.start) // 60} minutes")
+        
+        # close logging file
+        logging.FileHandler(self.file_name).close()
+        
+        return score
+        
 
     def LinearRegression(self, cross_validation=False):
 
-        # start logging
-        start = time.time()
-        logging.info("Linear Regression Start")
-        
+        # set model name
+        self.model_name = 'Linear Regression'
+               
         # put model into an object
         linear_regression = LinearRegression()
 
         # Make pipeline
-        pipe = make_pipeline(self.preprocessing, linear_regression)        
+        self.pipe = make_pipeline(self.preprocessing, linear_regression)        
 
         # Fit model
-        pipe.fit(self.X_train, self.y_train.values.ravel())
+        self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
         if cross_validation:
-            # store score
-            score = cross_val_score(pipe, self.X, self.y, cv=None, scoring='neg_mean_squared_error')
-
-            # set log for finishing
-            logging.info(f"Score for Linear Regression is {score}")
-            logging.info(f"Run Time for Linear Regression is {(time.time() - start) // 60} minutes")
-
-
+            
+            score = self.CrossValidation()
+            
         else:
-            # Score
-            score = pipe.score(self.X_test, self.y_test.values.ravel()) 
-
-            # set log for finishing
-            logging.info(f"Score for Linear Regression is {score}")
-            logging.info(f"Run Time for Linear Regression is {(time.time() - start) // 60} minutes")
-
-        # Print Best Score
+            
+            score = self.Scoring()
+            
+        # return best score
         return score
         
-    def RandomForestTune(self, parameter_dict, cross_validation=False):
+    def RandomForest(self, parameter_dict, cross_validation=False):
         
-        # start logging
-        start = time.time()
-        logging.info(f"Random Forest Run Start for paramter {parameter_dict}")
+        # set model name
+        self.model_name = 'RandomForest'
         
         # put model into an object
         random_forest = RandomForestRegressor(criterion='mse',
@@ -153,35 +195,27 @@ class MachineLearning():
         random_forest.set_params(**parameter_dict)
             
         # Make pipeline
-        pipe = make_pipeline(self.preprocessing, random_forest)
+        self.pipe = make_pipeline(self.preprocessing, random_forest)        
 
         # Fit model
-        pipe.fit(self.X_train, self.y_train.values.ravel())
+        self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
         if cross_validation:
-            # store score
-            score = cross_val_score(pipe, self.X, self.y.values.ravel(), cv=None)
-
-            # set log for finishing
-            logging.info(f"Score for RandomForest CV is {score}")
-            logging.info(f"Run Time for RandomForest is {(time.time() - start) // 60} minutes")        
-
-        else: 
-            # store results
-            score = pipe.score(self.X_test, self.y_test.values.ravel())
-                            
-            # set log for finishing
-            logging.info(f"Score for Random Forest ({parameter_dict}) is {score}")
-            logging.info(f"Run Time for Random Forest ({parameter_dict}) is {(time.time() - start) // 60} minutes")
-        
+            
+            score = self.CrossValidation()
+            
+        else:
+            
+            score = self.Scoring()
+            
+        # return best score
         return score
         
 
-    def XGboostTune(self, parameter_dict, cross_validation=False):
+    def XGboost(self, parameter_dict, cross_validation=False):
         
-        # start logging
-        start = time.time()
-        logging.info(f"XGboost Run Start for paramter {parameter_dict}")
+        # set model name
+        self.model_name = 'XGboost'
         
         # put model into an object
         xg_boost = xgb.XGBRegressor(base_score=0.5, 
@@ -205,34 +239,26 @@ class MachineLearning():
         xg_boost.set_params(**parameter_dict)
             
         # Make pipeline
-        pipe = make_pipeline(self.preprocessing, xg_boost)        
+        self.pipe = make_pipeline(self.preprocessing, xg_boost)        
 
         # Fit model
-        pipe.fit(self.X_train, self.y_train.values.ravel())
+        self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
         if cross_validation:
-            # store score
-            score = cross_val_score(pipe, self.X, self.y.values.ravel(), cv=None)
-                            
-            # set log for finishing
-            logging.info(f"Score for XGboost ({parameter_dict}) is {score}")
-            logging.info(f"Run Time for XGboost ({parameter_dict}) is {(time.time() - start) // 60} minutes")
-
-        else:
-            # store results
-            score = pipe.score(self.X_test, self.y_test.values.ravel())
-                            
-            # set log for finishing
-            logging.info(f"Score for XGboost ({parameter_dict}) is {score}")
-            logging.info(f"Run Time for XGboost ({parameter_dict}) is {(time.time() - start) // 60} minutes")
             
+            score = self.CrossValidation()
+            
+        else:
+            
+            score = self.Scoring()
+            
+        # return best score
         return score
 
-    def LGboostTune(self, parameter_dict, cross_validation=False):
+    def LGboost(self, parameter_dict, cross_validation=False):
         
-        # start logging
-        start = time.time()
-        logging.info(f"LGBoost Run Start for paramter {parameter_dict}")
+        # set model name
+        self.model_name = 'LGboost'
         
         # put model into an object
         lg_boost = lgb.LGBMRegressor(boosting_type='gbdt', 
@@ -248,61 +274,19 @@ class MachineLearning():
         lg_boost.set_params(**parameter_dict)
             
         # Make pipeline
-        pipe = make_pipeline(self.preprocessing, lg_boost)        
+        self.pipe = make_pipeline(self.preprocessing, lg_boost)        
 
         # Fit model
-        pipe.fit(self.X_train, self.y_train.values.ravel())
+        self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
         if cross_validation:
-            # store results
-            score = cross_val_score(pipe, self.X, self.y.values.ravel(), cv=None, scoring='neg_mean_squared_error')
-                            
-            # set log for finishing
-            logging.info(f"Score for LBboost ({parameter_dict}) is {score}")
-            logging.info(f"Run Time for LGboost ({parameter_dict}) is {(time.time() - start) // 60} minutes")
-
+            
+            score = self.CrossValidation()
+            
         else:
-            # store results
-            score = pipe.score(self.X_test, self.y_test.values.ravel())
-                            
-            # set log for finishing
-            logging.info(f"Score for LBboost ({parameter_dict}) is {score}")
-            logging.info(f"Run Time for LGboost ({parameter_dict}) is {(time.time() - start) // 60} minutes")
-        
+            
+            score = self.Scoring()
+            
+        # return best score
         return score
         
-    def ArtificialNeuralNetwork(self, parameter_dict):
-        
-        # load scaler
-        scaler = MinMaxScaler()
-
-        # load scaler
-        scaler = MinMaxScaler()
-
-        # transform data
-        X_train = scaler.fit_transform(self.X_train)
-        X_test = scaler.transform(self.X_test)
-
-        # iniate the model
-        model = Sequential()
-
-        # https://stats.stackexchange.com/questions/181/how-to-choose-the-number-of-hidden-layers-and-nodes-in-a-feedforward-neural-netw
-
-        model.add(Dense(units=90,activation='relu'))
-        model.add(Dropout(0.5))
-        model.add(Dense(units=45,activation='relu'))
-        model.add(Dropout(0.5))
-        model.add(Dense(units=10,activation='relu'))
-        model.add(Dropout(0.5))
-        model.add(Dense(units=1,activation='sigmoid'))
-
-        model.compile(loss='mean_squared_error', optimizer='adam')
-
-        early_stop = EarlyStopping(monitor='val_loss', mode='min', verbose=1, patience=25)
-
-        model.fit(x=X_train, 
-          y=y_train, 
-          epochs=600,
-          validation_data=(X_test, y_test), verbose=1,
-          callbacks=[early_stop]
-          )

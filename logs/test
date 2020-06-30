@@ -1,0 +1,9 @@
+2020-06-29 18:37:15,621 Hello
+2020-06-29 18:37:22,822 Hello Again
+2020-06-29 18:38:46,662 diff parser start
+2020-06-29 18:38:46,663 line_lengths old: 1; new: 1
+2020-06-29 18:38:46,663 -> code[replace] old[1:1] new[1:1]
+2020-06-29 18:38:46,663 parse_part from 1 to 1 (to 0 in part parser)
+2020-06-29 18:38:46,664 diff parser end
+2020-06-29 18:39:30,443 Hello
+2020-06-29 18:39:32,931 Hello Again
