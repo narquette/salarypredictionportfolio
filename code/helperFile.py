@@ -8,8 +8,8 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder, O
 from sklearn.impute import SimpleImputer
 from sklearn.compose import make_column_transformer
 from sklearn.pipeline import make_pipeline
-from sklearn.metrics import mean_squared_error
-from sklearn.model_selection import train_test_split,  cross_val_score
+from sklearn.metrics import mean_squared_error, make_scorer, accuracy_score
+from sklearn.model_selection import train_test_split,  cross_val_score, cross_validate
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.compose import TransformedTargetRegressor
@@ -66,12 +66,48 @@ category_columns = ['industry', 'jobType', 'degree', 'major']
 
 class MachineLearning():
     
+    """
+    
+    A class used to perform machines learning on regression models for Linear, RandomForest, Xgboost, and Lgboost regression modeling 
+    using the sklearn pipe processing including logging for each model
+
+    """
+    
     def __init__(self, data, label, log_file):
         
+        """
+        Parameters
+        ----------
+        data : str
+            the file path representation of where the data resides
+        label : str
+            the name of the label, target, or dependent variable
+        log_file : str
+            the name of the log file
+            
+        Attributes
+        ----------
+        train_data : object
+            put the data into a dataframe
+        X : str
+            the features for the dataset    
+        Y :
+            the label data for the dataset
+        start : time
+            start time for logging purposes
+        now : datetime
+            insert date time into filename
+        file_name : str
+            build file name for logging (one per model)
+        logging : obj
+            start logging for the current model
+    
+        """
+        
+        # put data into memory and establish label
         self.data = data
         self.label = label
         self.train_data = pd.read_csv(self.data, low_memory=False)
-        self.train_data[label] = np.log(self.train_data[label]) + 1
         
         # set X and y
         self.X = self.train_data.drop(self.label, axis=1)
@@ -90,70 +126,105 @@ class MachineLearning():
         # Start Logging
         self.logging = logging.basicConfig(format='%(asctime)s %(message)s', filename=self.file_name, level=logging.DEBUG)
         
+        
     def PreProcessing(self, scale_cols, one_hot_cols):#, ordinal_cols):
         
+        """Establishes preprocessing and a pipeline for modeling
+
+        Parameters
+        ----------
+        scale_cols : list
+            A list of numerical columns to be scaled
+        one_hot_cols : list
+            A list of categorical columns that will be one hot encoded        
+
+        """
+            
         # set transformer methods
         ohe = OneHotEncoder(handle_unknown='ignore', sparse=True)
         label_encode = LabelEncoder()
-#         job_ordinal_encode = OrdinalEncoder(categories=[np.array(list(jobtype_ord_map.keys()), dtype=object)])
-#         deg_ordinal_encode = OrdinalEncoder(categories=[np.array(list(degree_ord_map.keys()), dtype=object)])
         imputer = SimpleImputer(add_indicator=True, verbose=1)
         scaler = PowerTransformer()
 
         # Make Transformer
         self.preprocessing = make_column_transformer(
             (make_pipeline(imputer,scaler), scale_cols),
-             #(job_ordinal_encode, ordinal_cols[0]),
-             #(deg_ordinal_encode, ordinal_cols[1]),
             (ohe, one_hot_cols),
             remainder='drop')
         
        
     def CrossValidation(self):
         
+        """Performs cross validations for modeling and return mean squared error
+
+        Parameters
+        ----------
+        None
+
+        """
+        
         # start logging
         start = time.time()
         logging.info(f"{self.model_name} Start")
         
         # model
-        model = TransformedTargetRegressor(regressor=self.pipe, transformer=PowerTransformer())
+        # model = TransformedTargetRegressor(regressor=self.pipe, transformer=PowerTransformer())
+        def mse(y_true, y_pred): return mean_squared_error(y_true, y_pred)
+        #def accuracy(y_true, y_pred): return accuracy_score(y_true, y_pred)
           
         # evaluate model
-        cross_score = cross_val_score(model, self.X, self.y, scoring='neg_mean_absolute_error', cv=None, n_jobs=-1)
-           
-        # convert scores to positive
-        abs_score = np.absolute(cross_score)
-           
-        # summarize the result
-        score = np.mean(abs_score)
-            
+        # cross_score = cross_val_score(self.pipe, self.X, self.y, scoring='neg_mean_absolute_error', cv=None, n_jobs=-1)
+        scoring = { 'mse': make_scorer(mse) }
+        
+        mse = cross_validate(self.pipe, self.X, self.y.values.ravel(), cv=5, scoring=scoring)
+               
         # set log for finishing
-        logging.info(f"Score for {self.model_name} is {score}")
+        logging.info(f"Score for {self.model_name} is {mse}")
         logging.info(f"Run Time for {self.model_name} is {(time.time() - self.start) // 60} minutes")
         
-        return score
+        return mse['test_mse']
         
 
     def Scoring(self):
+        
+        """Establishes a scoring (mean squared error) for modeling
+
+        Parameters
+        ----------
+        None
+
+        """
         
         # start logging
         start = time.time()
         logging.info(f"{self.model_name} Start")
         
-        # Score
-        score = self.pipe.score(self.X_test, self.y_test.values.ravel()) 
+        # Mean Square Error Info
+        predictions = self.pipe.predict(self.X_test)
+        actual = self.y_test
+        mse = mean_squared_error(actual, predictions)
 
         # set log for finishing
-        logging.info(f"Score for {self.model_name} is {score}")
+        logging.info(f"Score for {self.model_name} is {mse}")
         logging.info(f"Run Time for Linear Regression is {(time.time() - self.start) // 60} minutes")
         
         # close logging file
         logging.FileHandler(self.file_name).close()
         
-        return score
+        return mse
         
 
     def LinearRegression(self, cross_validation=False):
+        
+        """Performs linear regression
+
+        Parameters
+        ----------
+        cross_validation : boolean, optional
+            if True it will perform cross validation, otherwise it will perform normal scoring
+            
+
+        """
 
         # set model name
         self.model_name = 'Linear Regression'
@@ -166,19 +237,32 @@ class MachineLearning():
 
         # Fit model
         self.pipe.fit(self.X_train, self.y_train.values.ravel())
-
+        
+        # performs cross validation
         if cross_validation:
             
-            score = self.CrossValidation()
-            
+            mse = self.CrossValidation()
+
+        # normal scoring for tuning
         else:
             
-            score = self.Scoring()
+            mse = self.Scoring()
             
         # return best score
-        return score
+        return mse
         
     def RandomForest(self, parameter_dict, cross_validation=False):
+        
+        """Perform random forest modeling and returns mean squared error
+        
+        Parameters
+        ----------
+        parameter_dict : dictionary
+            passes in parameters for tuning or cross validations
+        cross_validation : boolean, optional
+            if True it will perform cross validation, otherwise it will perform normal scoring
+
+        """
         
         # set model name
         self.model_name = 'RandomForest'
@@ -200,19 +284,32 @@ class MachineLearning():
         # Fit model
         self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
+        # performs cross validation
         if cross_validation:
             
-            score = self.CrossValidation()
-            
+            mse = self.CrossValidation()
+
+        # normal scoring for tuning
         else:
             
-            score = self.Scoring()
+            mse = self.Scoring()
             
         # return best score
-        return score
+        return mse
         
 
     def XGboost(self, parameter_dict, cross_validation=False):
+        
+        """Perform XGboost forest modeling and returns mean squared error
+        
+        Parameters
+        ----------
+        parameter_dict : dictionary
+            passes in parameters for tuning or cross validations
+        cross_validation : boolean, optional
+            if True it will perform cross validation, otherwise it will perform normal scoring
+
+        """
         
         # set model name
         self.model_name = 'XGboost'
@@ -244,18 +341,31 @@ class MachineLearning():
         # Fit model
         self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
+        # performs cross validation
         if cross_validation:
             
-            score = self.CrossValidation()
-            
+            mse = self.CrossValidation()
+
+        # normal scoring for tuning
         else:
             
-            score = self.Scoring()
+            mse = self.Scoring()
             
         # return best score
-        return score
+        return mse
 
     def LGboost(self, parameter_dict, cross_validation=False):
+        
+        """Perform LGBoost forest modeling and returns mean squared error
+        
+        Parameters
+        ----------
+        parameter_dict : dictionary
+            passes in parameters for tuning or cross validations
+        cross_validation : boolean, optional
+            if True it will perform cross validation, otherwise it will perform normal scoring
+
+        """
         
         # set model name
         self.model_name = 'LGboost'
@@ -279,14 +389,16 @@ class MachineLearning():
         # Fit model
         self.pipe.fit(self.X_train, self.y_train.values.ravel())
 
+        # performs cross validation
         if cross_validation:
             
-            score = self.CrossValidation()
-            
+            mse = self.CrossValidation()
+
+        # normal scoring for tuning
         else:
             
-            score = self.Scoring()
+            mse = self.Scoring()
             
         # return best score
-        return score
+        return mse
         

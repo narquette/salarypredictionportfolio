@@ -1,0 +1,83 @@
+2020-06-30 08:13:47,796 Linear Regression Start
+2020-06-30 08:15:01,799 Linear Regression Start
+2020-06-30 08:15:28,555 Score for Linear Regression is [-0.14378287 -0.14338167 -0.1435147  -0.14300709 -0.14275466]
+2020-06-30 08:15:28,555 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 10:51:09,802 Linear Regression Start
+2020-06-30 15:31:35,843 Linear Regression Start
+2020-06-30 15:31:36,343 Score for Linear Regression is 0.7708807580014457
+2020-06-30 15:31:36,346 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 15:31:47,556 Linear Regression Start
+2020-06-30 15:31:48,090 Score for Linear Regression is 0.7708807580014457
+2020-06-30 15:31:48,091 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 15:45:44,330 Linear Regression Start
+2020-06-30 15:45:44,819 Score for Linear Regression is 0.7708807580014457
+2020-06-30 15:45:44,820 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 15:47:18,333 Linear Regression Start
+2020-06-30 15:47:18,824 Score for Linear Regression is 0.7708807580014457
+2020-06-30 15:47:18,824 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 15:53:03,538 Linear Regression Start
+2020-06-30 15:53:04,021 Score for Linear Regression is 0.7395796919875216
+2020-06-30 15:53:04,021 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 15:59:46,151 Linear Regression Start
+2020-06-30 16:01:53,505 Linear Regression Start
+2020-06-30 16:03:18,359 Linear Regression Start
+2020-06-30 16:03:19,277 Score for Linear Regression is 0.7395796919875216
+2020-06-30 16:03:19,277 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 16:19:14,378 Linear Regression Start
+2020-06-30 16:19:15,188 Score for Linear Regression is 0.7395796919875216
+2020-06-30 16:19:15,188 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 16:51:33,932 Linear Regression Start
+2020-06-30 16:51:55,846 Score for Linear Regression is [-15.94512721 -15.92726482 -15.94883335 -15.90137954 -15.88132093]
+2020-06-30 16:51:55,847 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 17:13:00,515 Linear Regression Start
+2020-06-30 17:14:08,779 Linear Regression Start
+2020-06-30 17:15:41,665 Linear Regression Start
+2020-06-30 17:16:01,406 Score for Linear Regression is {'fit_time': array([3.92793775, 3.72339845, 3.23167706, 3.61505342, 3.67014074]), 'score_time': array([0.33345985, 0.29120231, 0.28979063, 0.2921586 , 0.29477692]), 'test_mse': array([389.55678906, 388.77872052, 390.16296669, 386.86861763,
+       386.6717896 ])}
+2020-06-30 17:16:01,406 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 17:18:25,527 Linear Regression Start
+2020-06-30 17:18:45,685 Score for Linear Regression is {'fit_time': array([3.79200959, 4.24487662, 3.29484558, 3.63475084, 3.5430305 ]), 'score_time': array([0.33823705, 0.29398584, 0.33636332, 0.3015964 , 0.29656363]), 'test_score': array([0.7407199 , 0.74074989, 0.73984906, 0.7405628 , 0.74038562])}
+2020-06-30 17:18:45,686 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 17:24:22,560 Linear Regression Start
+2020-06-30 17:26:24,871 Linear Regression Start
+2020-06-30 17:28:04,319 Linear Regression Start
+2020-06-30 17:31:08,995 Linear Regression Start
+2020-06-30 17:33:59,943 Linear Regression Start
+2020-06-30 17:35:55,861 Linear Regression Start
+2020-06-30 17:36:15,322 Score for Linear Regression is {'fit_time': array([3.47673774, 3.59599566, 3.76927638, 3.48378778, 3.60418463]), 'score_time': array([0.2893939 , 0.31947255, 0.28379726, 0.28644085, 0.28869867]), 'test_mse': array([389.55678906, 388.77872052, 390.16296669, 386.86861763,
+       386.6717896 ])}
+2020-06-30 17:36:15,322 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 17:36:54,009 Linear Regression Start
+2020-06-30 17:37:14,072 Score for Linear Regression is {'fit_time': array([3.41110706, 3.53001142, 3.1065917 , 4.11175108, 4.29944563]), 'score_time': array([0.29702353, 0.3099618 , 0.30103517, 0.32274079, 0.30839062]), 'test_mse': array([389.55678906, 388.77872052, 390.16296669, 386.86861763,
+       386.6717896 ])}
+2020-06-30 17:37:14,073 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 17:40:11,051 Linear Regression Start
+2020-06-30 17:40:30,738 Score for Linear Regression is {'fit_time': array([3.39827561, 3.53750229, 3.60545921, 3.76063156, 3.8365643 ]), 'score_time': array([0.28720284, 0.30748725, 0.29883385, 0.3069365 , 0.28576398]), 'test_mse': array([389.55678906, 388.77872052, 390.16296669, 386.86861763,
+       386.6717896 ])}
+2020-06-30 17:40:30,738 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 17:43:58,270 RandomForest Start
+2020-06-30 18:06:18,686 Score for RandomForest is {'fit_time': array([272.27509212, 265.07543135, 264.09656858, 266.67893147,
+       265.19278646]), 'score_time': array([1.42221451, 1.42859054, 1.40171957, 1.36043549, 1.39023614]), 'test_mse': array([366.05340069, 365.57054209, 366.37533873, 364.20112711,
+       363.51511683])}
+2020-06-30 18:06:18,687 Run Time for RandomForest is 25.0 minutes
+2020-06-30 18:16:55,670 Linear Regression Start
+2020-06-30 18:17:15,138 Score for Linear Regression is {'fit_time': array([3.64930582, 3.44378805, 3.23132586, 3.77398634, 3.84032822]), 'score_time': array([0.28950524, 0.29203033, 0.28713727, 0.29230952, 0.30514908]), 'test_mse': array([389.55678906, 388.77872052, 390.16296669, 386.86861763,
+       386.6717896 ])}
+2020-06-30 18:17:15,138 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 18:18:26,140 Linear Regression Start
+2020-06-30 18:18:45,402 Score for Linear Regression is {'fit_time': array([3.52144003, 3.46976423, 3.21819997, 3.64178896, 3.83110929]), 'score_time': array([0.29272771, 0.29137158, 0.29144478, 0.28713727, 0.35900044]), 'test_mse': array([389.55678906, 388.77872052, 390.16296669, 386.86861763,
+       386.6717896 ])}
+2020-06-30 18:18:45,402 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 18:22:10,698 RandomForest Start
+2020-06-30 18:44:20,423 Score for RandomForest is {'fit_time': array([265.46294236, 265.75144887, 261.8761127 , 265.08989239,
+       264.3672533 ]), 'score_time': array([1.42139411, 1.42379689, 1.41757417, 1.4097116 , 1.4273212 ]), 'test_mse': array([366.05340069, 365.57054209, 366.37533873, 364.20112711,
+       363.51511683])}
+2020-06-30 18:44:20,423 Run Time for RandomForest is 25.0 minutes
+2020-06-30 18:44:56,212 XGboost Start
+2020-06-30 18:48:32,952 Score for XGboost is {'fit_time': array([42.23762369, 41.1442647 , 40.9668715 , 43.52153659, 41.7080462 ]), 'score_time': array([1.47904801, 1.40777588, 1.44059086, 1.38274574, 1.3856926 ]), 'test_mse': array([365.50845567, 365.40968873, 366.23709277, 363.72063059,
+       363.10748974])}
+2020-06-30 18:48:32,953 Run Time for XGboost is 4.0 minutes
+2020-06-30 18:48:42,031 LGboost Start
+2020-06-30 18:49:37,806 Score for LGboost is {'fit_time': array([8.85169458, 9.6159811 , 8.92383766, 9.85363197, 9.55316973]), 'score_time': array([1.55337095, 2.14080405, 1.61674976, 1.91016841, 1.70506454]), 'test_mse': array([359.39095286, 358.24641509, 359.34087066, 357.5826004 ,
+       356.79387945])}
+2020-06-30 18:49:37,806 Run Time for LGboost is 1.0 minutes

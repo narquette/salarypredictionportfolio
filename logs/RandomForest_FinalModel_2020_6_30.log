@@ -1,0 +1,9 @@
+2020-06-30 16:29:59,482 RandomForest Start
+2020-06-30 16:30:04,313 Score for RandomForest is 0.7546346586630361
+2020-06-30 16:30:04,313 Run Time for Linear Regression is 3.0 minutes
+2020-06-30 16:39:53,111 XGboost Start
+2020-06-30 16:39:58,949 Score for XGboost is 0.7556651155930785
+2020-06-30 16:39:58,949 Run Time for Linear Regression is 0.0 minutes
+2020-06-30 16:44:11,966 LGboost Start
+2020-06-30 16:44:19,425 Score for LGboost is 0.7603138576766169
+2020-06-30 16:44:19,434 Run Time for Linear Regression is 0.0 minutes
