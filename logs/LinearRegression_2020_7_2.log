@@ -1,0 +1,32 @@
+2020-07-02 08:57:30,782 Linear Regression Start
+2020-07-02 08:57:35,138 Score for Linear Regression is 389.4016080814103
+2020-07-02 08:57:35,138 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 08:58:24,302 Linear Regression Start
+2020-07-02 08:58:28,196 Score for Linear Regression is 389.4016080814103
+2020-07-02 08:58:28,196 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 09:01:51,916 Linear Regression Start
+2020-07-02 09:01:53,452 Score for Linear Regression is 0.5537884053483202
+2020-07-02 09:01:53,455 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 09:01:58,968 pickle loaded: /home/narquette/anaconda/envs/dscience/lib/python3.7/site-packages/sklearn/pipeline.py
+2020-07-02 09:01:59,165 pickle loaded: /home/narquette/anaconda/envs/dscience/lib/python3.7/site-packages/jedi/third_party/typeshed/stdlib/2and3/builtins.pyi
+2020-07-02 09:01:59,167 pickle loaded: /home/narquette/anaconda/envs/dscience/lib/python3.7/site-packages/sklearn/__init__.py
+2020-07-02 09:01:59,175 pickle loaded: /home/narquette/anaconda/envs/dscience/lib/python3.7/site-packages/sklearn/utils/__init__.py
+2020-07-02 09:01:59,191 pickle loaded: /home/narquette/anaconda/envs/dscience/lib/python3.7/site-packages/sklearn/utils/metaestimators.py
+2020-07-02 09:01:59,208 pickle loaded: /home/narquette/anaconda/envs/dscience/lib/python3.7/site-packages/sklearn/base.py
+2020-07-02 09:02:41,584 Linear Regression Start
+2020-07-02 09:02:59,470 Linear Regression Start
+2020-07-02 09:03:00,984 Score for Linear Regression is 0.5537884053483202
+2020-07-02 09:03:00,984 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 09:04:45,449 Linear Regression Start
+2020-07-02 09:04:47,027 Score for Linear Regression is 0.5537884053483202
+2020-07-02 09:04:47,028 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 09:28:24,183 Linear Regression Start
+2020-07-02 09:28:43,848 Linear Regression Start
+2020-07-02 09:28:45,466 Score for Linear Regression is 0.5537884053483202
+2020-07-02 09:28:45,466 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 09:30:24,873 Linear Regression Start
+2020-07-02 09:30:26,998 Score for Linear Regression is 0.5537884053483202
+2020-07-02 09:30:26,998 Run Time for Linear Regression is 0.0 minutes
+2020-07-02 09:35:50,799 Linear Regression Start
+2020-07-02 09:35:52,334 Score for Linear Regression is 0.5125917201499823
+2020-07-02 09:35:52,334 Run Time for Linear Regression is 0.0 minutes

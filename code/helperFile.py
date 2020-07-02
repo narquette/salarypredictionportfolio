@@ -3,6 +3,7 @@ import numpy as np
 import logging
 import datetime
 import time 
+import pickle
 import os
 from sklearn.preprocessing import OneHotEncoder, StandardScaler, LabelEncoder, OrdinalEncoder, PowerTransformer
 from sklearn.impute import SimpleImputer
@@ -46,11 +47,16 @@ random_tune = {
     'min_samples_leaf' : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20]
 }
 
+randomforest_best_results_dict = {'max_depth': 20, 'n_estimators': 100,
+                     'max_features': .7, 'min_samples_leaf': 7}
+
 xgb_tune = {   
     'learning_rate' : [0.05, 0.1, 0.2, 0.4, 0.6, 0.8, 1],
     'max_depth':  [1 ,2 ,3 ,4 ,5 ,10 ,20 ,50],
     'n_estimators' : [1, 2, 3, 4, 5, 15, 20, 25, 40, 50, 70, 100]    
 }
+
+xgb_best_results_dict = {'learning_rate': 0.1, 'max_depth': 4, 'n_estimators': 100}
 
 lgb_tune = {   
     'learning_rate' : [0.05, 0.1, 0.2, 0.4, 0.6, 0.8, 1],
@@ -60,9 +66,11 @@ lgb_tune = {
     'min_data_in_leaf': [100, 250, 500, 750, 1000]
 }
 
+lgb_best_results_dict = {'max_depth': 20, 'n_estimators': 100, 'max_features': 'auto', 'min_samples_leaf': 20}
+
 # set column names
+category_columns = ['jobType', 'degree', 'major', 'industry']
 numeric_columns =  ['yearsExperience', 'milesFromMetropolis']
-category_columns = ['industry', 'jobType', 'degree', 'major']
 
 class MachineLearning():
     
@@ -73,7 +81,7 @@ class MachineLearning():
 
     """
     
-    def __init__(self, data, label, log_file):
+    def __init__(self, train_data=None, test_data=None, label=None, log_file=None):
         
         """
         Parameters
@@ -104,20 +112,49 @@ class MachineLearning():
     
         """
         
-        # put data into memory and establish label
-        self.data = data
-        self.label = label
-        self.train_data = pd.read_csv(self.data, low_memory=False)
+        # load and split TRAIN DATA
+        if train_data and label:
+            
+            # put data into memory and establish label for TRAIN DATA
+            self.train = train_data
+            self.label = label
+            self.train_data = pd.read_csv(self.train, low_memory=False)
+
+            # set X and y for TRAIN
+            self.X = self.train_data.drop(self.label, axis=1)
+            self.y = self.train_data[[self.label]]
+
+            # Split Train and Test for TRAIN
+            self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X,
+                                                        self.y,
+                                                        test_size=0.33,
+                                                        random_state=42)
+
+        # load TEST DATA and Add Columns
+        if test_data:
+            
+            self.test = test_data
+            self.test_data = pd.read_csv(self.test, low_memory=False)
+            self.test_data.dropna(inplace=True)
+            self.test_data.columns = ['jobId', 'companyId', 'jobType', 'degree',
+                              'major', 'industry', 'yearsExperience', 'milesFromMetropolis']
+            #self.test_data.drop('jobId', axis=1)
+            
+            degrees = self.test_data['degree']
+            advanced_degrees = [
+                1 if degree == 'DOCTORAL' else 1 if degree == 'MASTERS' else 0
+                for degree in degrees
+            ]
+            self.test_data['IsAdvancedDegree'] = advanced_degrees
+
+            job_types = self.test_data['jobType']
+            vp_or_c_levels = [
+                1 if job_type == 'CEO' else 1 if job_type == 'CFO' else
+                1 if job_type == 'CTO' else 1 if job_type == 'VICE_PRESIDENT' else 0
+                for job_type in job_types
+            ]
+            self.test_data['VicePresidentOrAbove'] = vp_or_c_levels
         
-        # set X and y
-        self.X = self.train_data.drop(self.label, axis=1)
-        self.y = self.train_data[[self.label]]
-        
-        # Split Train and Test
-        self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X,
-                                                    self.y,
-                                                    test_size=0.33,
-                                                    random_state=42)
         # Set log file name and start time
         self.start = time.time()
         now = datetime.datetime.now()
@@ -148,8 +185,8 @@ class MachineLearning():
 
         # Make Transformer
         self.preprocessing = make_column_transformer(
-            (make_pipeline(imputer,scaler), scale_cols),
             (ohe, one_hot_cols),
+            (make_pipeline(imputer,scaler), scale_cols),
             remainder='drop')
         
        
@@ -160,9 +197,16 @@ class MachineLearning():
         Parameters
         ----------
         None
+        
+        Return
+        ----------
+        mse (Mean Squared Error )
 
         """
         
+        # Fit model
+        self.pipe.fit(self.X_train, self.y_train.values.ravel())
+                
         # start logging
         start = time.time()
         logging.info(f"{self.model_name} Start")
@@ -182,10 +226,34 @@ class MachineLearning():
         logging.info(f"Score for {self.model_name} is {mse}")
         logging.info(f"Run Time for {self.model_name} is {(time.time() - self.start) // 60} minutes")
         
+        # close logging file
+        logging.FileHandler(self.file_name).close()
+        
         return mse['test_mse']
         
-
-    def Scoring(self):
+    def Prediction(self, model):
+        
+        # load model
+        load_model = pickle.load(open(os.path.join('../models', model), 'rb'))
+        
+        # set column names to ensure ordering
+        columns = ['companyId', 'jobType', 'degree', 'major', 'industry', 
+                   'yearsExperience', 'milesFromMetropolis', 'IsAdvancedDegree', 
+                   'VicePresidentOrAbove']
+        
+        # perform predictions                         
+        predictions = load_model.predict(self.test_data[columns])
+        
+        # store results in a dataframe
+        results_df = pd.DataFrame()
+        results_df['jobId'] = self.test_data['jobId']
+        results_df['salary'] = predictions
+        
+        # add results to a file
+        results_df.to_csv(os.path.join('../data','prediction','test_salaries.tar.gz'), compression='gzip', index=False) 
+                                 
+    
+    def Scoring(self, save_model=False):
         
         """Establishes a scoring (mean squared error) for modeling
 
@@ -193,16 +261,35 @@ class MachineLearning():
         ----------
         None
 
+        Return
+        ----------
+        mse (Mean Squared Error )
+        
         """
         
         # start logging
         start = time.time()
         logging.info(f"{self.model_name} Start")
+                                 
+        # set mse to None
+        # need to allow for saving model and predicting
+        mse = None
+
+        # Fit model
+        self.pipe.fit(self.X_train, self.y_train.values.ravel())
         
-        # Mean Square Error Info
-        predictions = self.pipe.predict(self.X_test)
-        actual = self.y_test
-        mse = mean_squared_error(actual, predictions)
+        # save model if save_mode is True:        
+        if save_model:
+            
+            pickle.dump(self.pipe, open(os.path.join('../models',f"{self.model_name}.sav"), 'wb'))    
+            self.Prediction(model=f"{self.model_name}.sav")                                       
+    
+        else :
+                                 
+            # Mean Square Error Info
+            predictions = self.pipe.predict(self.X_test)
+            actual = self.y_test
+            mse = mean_squared_error(actual, predictions)
 
         # set log for finishing
         logging.info(f"Score for {self.model_name} is {mse}")
@@ -214,7 +301,7 @@ class MachineLearning():
         return mse
         
 
-    def LinearRegression(self, cross_validation=False):
+    def LinearRegression(self, cross_validation=False, prediction=False):
         
         """Performs linear regression
 
@@ -223,7 +310,10 @@ class MachineLearning():
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
             
-
+        Return
+        ----------
+        mse (Mean Squared Error )
+        
         """
 
         # set model name
@@ -235,15 +325,16 @@ class MachineLearning():
         # Make pipeline
         self.pipe = make_pipeline(self.preprocessing, linear_regression)        
 
-        # Fit model
-        self.pipe.fit(self.X_train, self.y_train.values.ravel())
-        
         # performs cross validation
         if cross_validation:
             
             mse = self.CrossValidation()
 
         # normal scoring for tuning
+        elif prediction:
+            
+            mse = self.Scoring(save_model=True)
+            
         else:
             
             mse = self.Scoring()
@@ -251,7 +342,7 @@ class MachineLearning():
         # return best score
         return mse
         
-    def RandomForest(self, parameter_dict, cross_validation=False):
+    def RandomForest(self, parameter_dict, cross_validation=False, prediction=False):
         
         """Perform random forest modeling and returns mean squared error
         
@@ -262,6 +353,10 @@ class MachineLearning():
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
 
+        Return
+        ----------
+        mse (Mean Squared Error )
+        
         """
         
         # set model name
@@ -281,9 +376,6 @@ class MachineLearning():
         # Make pipeline
         self.pipe = make_pipeline(self.preprocessing, random_forest)        
 
-        # Fit model
-        self.pipe.fit(self.X_train, self.y_train.values.ravel())
-
         # performs cross validation
         if cross_validation:
             
@@ -298,7 +390,7 @@ class MachineLearning():
         return mse
         
 
-    def XGboost(self, parameter_dict, cross_validation=False):
+    def XGboost(self, parameter_dict, cross_validation=False, prediction=False):
         
         """Perform XGboost forest modeling and returns mean squared error
         
@@ -309,6 +401,10 @@ class MachineLearning():
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
 
+        Return
+        ----------
+        mse (Mean Squared Error )
+        
         """
         
         # set model name
@@ -338,9 +434,6 @@ class MachineLearning():
         # Make pipeline
         self.pipe = make_pipeline(self.preprocessing, xg_boost)        
 
-        # Fit model
-        self.pipe.fit(self.X_train, self.y_train.values.ravel())
-
         # performs cross validation
         if cross_validation:
             
@@ -354,7 +447,7 @@ class MachineLearning():
         # return best score
         return mse
 
-    def LGboost(self, parameter_dict, cross_validation=False):
+    def LGboost(self, parameter_dict, cross_validation=False, prediction=False):
         
         """Perform LGBoost forest modeling and returns mean squared error
         
@@ -365,6 +458,10 @@ class MachineLearning():
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
 
+        Return
+        ----------
+        mse (Mean Squared Error )
+        
         """
         
         # set model name
@@ -384,21 +481,41 @@ class MachineLearning():
         lg_boost.set_params(**parameter_dict)
             
         # Make pipeline
-        self.pipe = make_pipeline(self.preprocessing, lg_boost)        
-
-        # Fit model
-        self.pipe.fit(self.X_train, self.y_train.values.ravel())
-
+        self.pipe = make_pipeline(self.preprocessing, lg_boost)     
+        
         # performs cross validation
         if cross_validation:
             
             mse = self.CrossValidation()
 
         # normal scoring for tuning
+        elif prediction:
+            
+            mse = self.Scoring(save_model=True)
+            
         else:
             
             mse = self.Scoring()
             
         # return best score
         return mse
+    
+    
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
         
