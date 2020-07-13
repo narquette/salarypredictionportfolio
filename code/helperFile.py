@@ -138,7 +138,6 @@ class MachineLearning():
             self.test_data.dropna(inplace=True)
             self.test_data.columns = ['jobId', 'companyId', 'jobType', 'degree',
                               'major', 'industry', 'yearsExperience', 'milesFromMetropolis']
-            #self.test_data.drop('jobId', axis=1)
             
             degrees = self.test_data['degree']
             advanced_degrees = [
@@ -190,6 +189,7 @@ class MachineLearning():
             remainder='drop')
         
        
+    
     def CrossValidation(self):
         
         """Performs cross validations for modeling and return mean squared error
@@ -233,6 +233,19 @@ class MachineLearning():
         
     def Prediction(self, model):
         
+        """Establishes a scoring (mean squared error) for modeling
+
+        Parameters
+        ----------
+        model : string
+            The model name will be passed into the function and used to provide a prediction and write the information to file
+
+        Return
+        ----------
+        None
+        
+        """
+        
         # load model
         load_model = pickle.load(open(os.path.join('../models', model), 'rb'))
         
@@ -259,7 +272,8 @@ class MachineLearning():
 
         Parameters
         ----------
-        None
+        save_model : boolean, optional
+            If true, the model will be save and prediction function will be called
 
         Return
         ----------
@@ -309,6 +323,8 @@ class MachineLearning():
         ----------
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
+        prediction : boolean, optional
+            if true, the scoring function will be called that saves the model and performs a prediction on all of the test data            
             
         Return
         ----------
@@ -352,6 +368,8 @@ class MachineLearning():
             passes in parameters for tuning or cross validations
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
+        prediction : boolean, optional
+            if true, the scoring function will be called that saves the model and performs a prediction on all of the test data
 
         Return
         ----------
@@ -400,6 +418,8 @@ class MachineLearning():
             passes in parameters for tuning or cross validations
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
+        prediction : boolean, optional
+            if true, the scoring function will be called that saves the model and performs a prediction on all of the test data            
 
         Return
         ----------
@@ -457,6 +477,8 @@ class MachineLearning():
             passes in parameters for tuning or cross validations
         cross_validation : boolean, optional
             if True it will perform cross validation, otherwise it will perform normal scoring
+        prediction : boolean, optional
+            if true, the scoring function will be called that saves the model and performs a prediction on all of the test data
 
         Return
         ----------

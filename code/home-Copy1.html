@@ -1,0 +1,22 @@
+<h1> FLASK APP RUNNING</h1>
+<h2 class="title">Enter Appointment Information below:</h2>
+<form method="POST">
+    {# This hidden_tag is a CSRF security feature. #}
+    {{ form.hidden_tag() }}
+    {{form.scholarship.label}} {{form.scholarship}}<br>
+    {{form.hypertension.label}} {{form.hypertension}}<br>
+    {{form.diabetes.label}} {{form.diabetes}}<br>
+    {{form.alcoholism.label}} {{form.alcoholism}}<br>
+    {{form.handicap.label}} {{form.handicap}}<br>
+    {{form.sms.label}} {{form.sms}}<br>
+    {{form.samedayappt.label}} {{form.samedayappt}}<br>   
+    {{form.gender.label}} {{form.gender}}<br>
+    {{form.agegroup.label}} {{form.agegroup}}<br>
+    {{form.neighborhood.label}} {{form.neighborhood}}<br>
+    {{form.apptday.label}} {{form.apptday}}<br>    
+    {{form.schedTimeOfDay.label}} {{form.schedTimeOfDay}}<br>
+    {{form.rainclass.label }} {{form.rainclass}}<br>
+    {{form.normvsact.label}} {{form.normvsact}}<br>
+    {{form.missedappt.label}} {{form.missedappt}}<br>
+    {{ form.submit() }}
+</form>

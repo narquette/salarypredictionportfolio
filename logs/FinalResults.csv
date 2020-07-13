@@ -1,0 +1,5 @@
+Model,MeanSquaredError
+LinearRegression,386.67179
+RandomForest,363.515117
+XGboost,363.10749
+LGboost,356.793879
