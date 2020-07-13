@@ -1,4 +1,4 @@
-# NoShowAppointments
+# Salary Prediction
 This is the project code used for a salary prediction project using standard Human Resource Data.  The problem statement being addressed in the project is, "How can we better predict the expected salary for various positions such that the offerred salary can align with the market?"
 
 # Data Used for Analysis
