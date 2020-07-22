@@ -50,9 +50,9 @@ No Show Prediction
 
 1) Go to [Heroku App](https://mysalarypred.herokuapp.com/)
 2) Enter in the following values:
-      Miles from Metropolis = 45
-      Years Experience = 10
-      Industry = Health
+      - Miles from Metropolis = 45
+      - Years Experience = 10
+      - Industry = Health
 3) View Salary Prediction:
       "The predicted salary is 157420.0"
 
